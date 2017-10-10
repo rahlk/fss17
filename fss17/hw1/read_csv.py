@@ -7,6 +7,7 @@ class ValidationError(Exception):
     def __init__(self, message):
         super(ValidationError, self).__init__(message)
 
+
 def cast(cast_type):
     if cast_type == "Sym":
         return str
@@ -16,12 +17,13 @@ def cast(cast_type):
         raise TypeError("Invalid element type")
 
 
-def is_valid_row(row, head):
+def is_valid_row(row, row_number, head):
     """
     Checks for bad lines; i.e. Wrong number of cells.
     """
     if not len(row) == len(head):
-        raise ValidationError("ValidationError: Incorrect row size. Skipping row.")
+        raise ValidationError(
+            "ValidationError in line #{}: Incorrect row size. Skipping row.".format(row_number))
 
     return True
 
@@ -42,33 +44,37 @@ def read_csv(fname="POM3A.csv"):
                     for col in lis[0]]
         head = [re.sub("\$", "", el) for el in lis[0]]
         # set_trace()
-        for row in lis[1:]:
+        for i, row in enumerate(lis[1:]):
             try:
-                if is_valid_row(row, head): # Check #1: Is the row size correct
+                if is_valid_row(row, i+2, head):  # Check #1: Is the row size correct
                     """
                     Check #2: try-except skips over elements that can't be 
                     properly converted
                     """
                     try:
                         body.append([cast(el_type)(el)
-                                    for el, el_type in zip(row, col_type)])
+                                     for el, el_type in zip(row, col_type)])
                     except:
-                        raise ValidationError("ValidationError: Row element type doesn't match column header. Skipping row.")
+                        raise ValidationError(
+                            "ValidationError in line #{}: Row element type doesn't match column header. Skipping row.".format(i+2))
             except Exception as E:
                 print(E)
 
-    
     return body.insert(0, head)
 
 
 def test_time_to_read_csv():
+    print("Test Case 1")
     from time import time
     t = time()
     read_csv(fname="POM3A.csv")
-    print("Time to read file={0:.2f} seconds".format(time() - t))
+    print("Time to read file={0:.2f} seconds\n".format(time() - t))
+
 
 def test_read_bad_csv():
+    print("Test Case 2")
     read_csv(fname="POM3A_bad.csv")
+    print("")
 
 
 if __name__ == "__main__":
