@@ -25,7 +25,9 @@ _ `POM3A_bad.csv`: testing csv table file with added bad lines
 python read_csv.py
 ```
 Note: There are two test cases in `read_csv.py`:
+    
     + `test_time_to_read_csv()` reads the correct file and prints time taken ~0.11 seconds
+    
     + `test_read_bad_csv()` reads a bad csv file, prints exceptions for bad lines.
 
 ### Output:
