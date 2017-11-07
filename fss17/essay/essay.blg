@@ -1,0 +1,134 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: essay.aux
+The style file: ACM-Reference-format.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: essay.bib
+You're missing a field name---line 868 of file essay.bib
+ : 
+ : %  month = {jun},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 958 of file essay.bib
+ : @book{norvig
+ :             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 975 of file essay.bib
+ : @book{altman99
+ :               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 983 of file essay.bib
+ : @article{wooldridge95
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 994 of file essay.bib
+ : @article{deb00a
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1004 of file essay.bib
+ : @inproceedings{baier09
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1035 of file essay.bib
+ : @article{Harman2009
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1071 of file essay.bib
+ : @book{ghallab04
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1294 of file essay.bib
+ : @article{krishna17a
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2569 of file essay.bib
+ : @inproceedings{sayyad13
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2580 of file essay.bib
+ : @inproceedings{henard15
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2740 of file essay.bib
+ : @article{LeGoues2015
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2790 of file essay.bib
+ : @inproceedings{Weimer2009
+ :                          ,
+I'm skipping whatever remains of this entry
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty address in altman99
+Warning--empty publisher in baier09
+Warning--empty address in baier09
+Warning--empty address in boehm81
+Warning--empty address in boehm00b
+Warning--empty publisher in fea02a
+Warning--empty address in fea02a
+Warning--page numbers missing in both pages and numpages fields in fea02a
+Warning--empty address in ghallab04
+Warning--no number and no volume in Harman2009
+Warning--page numbers missing in both pages and numpages fields in Harman2009
+Warning--empty publisher in henard15
+Warning--empty address in henard15
+Warning--page numbers missing in both pages and numpages fields in belltree17
+Warning--no number and no volume in krishna17a
+Warning--page numbers missing in both pages and numpages fields in krishna17a
+Warning--empty year in me09j
+Warning--empty publisher in me09j
+Warning--empty address in me09j
+Warning--page numbers missing in both pages and numpages fields in me09j
+Warning--empty publisher in nair2016accidental
+Warning--empty address in nair2016accidental
+Warning--empty address in norvig
+Warning--empty publisher in sayyad13
+Warning--empty address in sayyad13
+Warning--page numbers missing in both pages and numpages fields in sayyad13
+Warning--empty address in Weimer2009
+You've used 20 entries,
+            5795 wiz_defined-function locations,
+            1440 strings with 19179 characters,
+and the built_in function-call counts, 23648 in all, are:
+= -- 2790
+> -- 1002
+< -- 0
++ -- 336
+- -- 357
+* -- 1793
+:= -- 2525
+add.period$ -- 104
+call.type$ -- 20
+change.case$ -- 153
+chr.to.int$ -- 20
+cite$ -- 47
+duplicate$ -- 2019
+empty$ -- 1419
+format.name$ -- 416
+if$ -- 5567
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 78
+newline$ -- 210
+num.names$ -- 160
+pop$ -- 828
+preamble$ -- 1
+purify$ -- 326
+quote$ -- 0
+skip$ -- 678
+stack$ -- 0
+substring$ -- 1605
+swap$ -- 182
+text.length$ -- 26
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 427
+warning$ -- 27
+while$ -- 139
+width$ -- 0
+write$ -- 390
+(There were 13 error messages)
