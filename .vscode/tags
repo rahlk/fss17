@@ -1,0 +1,30 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ValidationError	../fss17/hw1/read_csv.py	/^class ValidationError(Exception):$/;"	kind:class	line:6
+ValidationError	../fss17/hw2/tbl.py	/^class ValidationError(Exception):$/;"	kind:class	line:6
+__init__	../fss17/hw1/read_csv.py	/^    def __init__(self, message):$/;"	kind:member	line:7
+__init__	../fss17/hw2/tbl.py	/^    def __init__(self, message):$/;"	kind:member	line:7
+cast	../fss17/hw1/read_csv.py	/^def cast(cast_type):$/;"	kind:function	line:11
+cast	../fss17/hw2/tbl.py	/^def cast(cast_type):$/;"	kind:function	line:11
+is_valid_row	../fss17/hw1/read_csv.py	/^def is_valid_row(row, row_number, head):$/;"	kind:function	line:20
+is_valid_row	../fss17/hw2/tbl.py	/^def is_valid_row(row, row_number, head):$/;"	kind:function	line:20
+print_function	../fss17/hw1/read_csv.py	/^from __future__ import print_function$/;"	kind:namespace	line:1
+print_function	../fss17/hw2/tbl.py	/^from __future__ import print_function$/;"	kind:namespace	line:1
+re	../fss17/hw1/read_csv.py	/^import re$/;"	kind:namespace	line:2
+re	../fss17/hw2/tbl.py	/^import re$/;"	kind:namespace	line:2
+read_csv	../fss17/hw1/read_csv.py	/^def read_csv(fname="POM3A.csv"):$/;"	kind:function	line:31
+read_csv	../fss17/hw2/tbl.py	/^def read_csv(fname="POM3A.csv"):$/;"	kind:function	line:31
+read_csv.py	../fss17/hw1/read_csv.py	1;"	kind:file	line:1
+set_trace	../fss17/hw1/read_csv.py	/^from pdb import set_trace$/;"	kind:namespace	line:3
+set_trace	../fss17/hw2/tbl.py	/^from pdb import set_trace$/;"	kind:namespace	line:3
+tbl.py	../fss17/hw2/tbl.py	1;"	kind:file	line:1
+test_read_bad_csv	../fss17/hw1/read_csv.py	/^def test_read_bad_csv():$/;"	kind:function	line:74
+test_read_bad_csv	../fss17/hw2/tbl.py	/^def test_read_bad_csv():$/;"	kind:function	line:74
+test_time_to_read_csv	../fss17/hw1/read_csv.py	/^def test_time_to_read_csv():$/;"	kind:function	line:66
+test_time_to_read_csv	../fss17/hw2/tbl.py	/^def test_time_to_read_csv():$/;"	kind:function	line:66
+time	../fss17/hw1/read_csv.py	/^    from time import time$/;"	kind:namespace	line:68
+time	../fss17/hw2/tbl.py	/^    from time import time$/;"	kind:namespace	line:68
