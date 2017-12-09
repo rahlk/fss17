@@ -1,0 +1,261 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{15}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Arcuri and Briand}{Arcuri and Briand}{2011}]%
+        {arcuri11}
+\bibfield{author}{\bibinfo{person}{A. Arcuri} {and} \bibinfo{person}{L.
+  Briand}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{A practical guide for using statistical tests to
+  assess randomized algorithms in software engineering}. In
+  \bibinfo{booktitle}{{\em ICSE'11}}. \bibinfo{pages}{1--10}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Bansiya and Davis}{Bansiya and Davis}{2002}]%
+        {Bansiya02}
+\bibfield{author}{\bibinfo{person}{Jagdish Bansiya} {and}
+  \bibinfo{person}{Carl~G. Davis}.} \bibinfo{year}{2002}\natexlab{}.
+\newblock \showarticletitle{A Hierarchical Model for Object-Oriented Design
+  Quality Assessment}.
+\newblock \bibinfo{journal}{{\em IEEE Trans. Softw. Eng.\/}}
+  \bibinfo{volume}{28}, \bibinfo{number}{1} (\bibinfo{date}{Jan.}
+  \bibinfo{year}{2002}), \bibinfo{pages}{4--17}.
+\newblock
+\showISSN{0098-5589}
+\showDOI{%
+\url{https://doi.org/10.1109/32.979986}}
+
+
+\bibitem[\protect\citeauthoryear{Cheng and Jensen}{Cheng and Jensen}{2010}]%
+        {Cheng10}
+\bibfield{author}{\bibinfo{person}{Betty Cheng} {and} \bibinfo{person}{Adam
+  Jensen}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{On the Use of Genetic Programming for Automated
+  Refactoring and the Introduction of Design Patterns}. In
+  \bibinfo{booktitle}{{\em Proceedings of the 12th Annual Conference on Genetic
+  and Evolutionary Computation}} {\em (\bibinfo{series}{GECCO '10})}.
+  \bibinfo{publisher}{ACM}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{1341--1348}.
+\newblock
+\showISBNx{978-1-4503-0072-8}
+\showDOI{%
+\url{https://doi.org/10.1145/1830483.1830731}}
+
+
+\bibitem[\protect\citeauthoryear{Efron and Tibshirani}{Efron and
+  Tibshirani}{1993}]%
+        {efron93}
+\bibfield{author}{\bibinfo{person}{Bradley Efron} {and}
+  \bibinfo{person}{Robert~J Tibshirani}.} \bibinfo{year}{1993}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em An introduction to the bootstrap}}.
+\newblock \bibinfo{publisher}{Chapman and Hall}, \bibinfo{address}{London}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kampenes, Dyb{\aa}, Hannay, and
+  Sj{\o}berg}{Kampenes et~al\mbox{.}}{2007}]%
+        {kampenes07}
+\bibfield{author}{\bibinfo{person}{Vigdis~By Kampenes}, \bibinfo{person}{Tore
+  Dyb{\aa}}, \bibinfo{person}{Jo~Erskine Hannay}, {and} \bibinfo{person}{Dag
+  I.~K. Sj{\o}berg}.} \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{A systematic review of effect size in software
+  engineering experiments}.
+\newblock \bibinfo{journal}{{\em Information {\&} Software Technology\/}}
+  \bibinfo{volume}{49}, \bibinfo{number}{11-12} (\bibinfo{year}{2007}),
+  \bibinfo{pages}{1073--1086}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kocaguneli, Zimmermann, Bird, Nagappan, and
+  Menzies}{Kocaguneli et~al\mbox{.}}{2013}]%
+        {Kocaguneli2013:ep}
+\bibfield{author}{\bibinfo{person}{Ekrem Kocaguneli}, \bibinfo{person}{Thomas
+  Zimmermann}, \bibinfo{person}{Christian Bird}, \bibinfo{person}{Nachiappan
+  Nagappan}, {and} \bibinfo{person}{Tim Menzies}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{{Distributed development considered harmful?}}. In
+  \bibinfo{booktitle}{{\em Proceedings - International Conference on Software
+  Engineering}}. \bibinfo{pages}{882--890}.
+\newblock
+\showISBNx{9781467330763}
+\showISSN{02705257}
+\showDOI{%
+\url{https://doi.org/10.1109/ICSE.2013.6606637}}
+
+
+\bibitem[\protect\citeauthoryear{Krishna, Menzies, and Fu}{Krishna
+  et~al\mbox{.}}{2016}]%
+        {krishna16}
+\bibfield{author}{\bibinfo{person}{Rahul Krishna}, \bibinfo{person}{Tim
+  Menzies}, {and} \bibinfo{person}{Wei Fu}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{{Too much automation? the bellwether effect and its
+  implications for transfer learning}}. In \bibinfo{booktitle}{{\em Proceedings
+  of the 31st IEEE/ACM International Conference on Automated Software
+  Engineering - ASE 2016}}. \bibinfo{publisher}{ACM Press},
+  \bibinfo{address}{New York, New York, USA}, \bibinfo{pages}{122--131}.
+\newblock
+\showISBNx{9781450338455}
+\showDOI{%
+\url{https://doi.org/10.1145/2970276.2970339}}
+
+
+\bibitem[\protect\citeauthoryear{Menzies, Butcher, Cok, Marcus, Layman, Shull,
+  Turhan, and Zimmermann}{Menzies et~al\mbox{.}}{[n. d.]}]%
+        {localvsglobal}
+\bibfield{author}{\bibinfo{person}{Tim Menzies}, \bibinfo{person}{Andrew
+  Butcher}, \bibinfo{person}{David Cok}, \bibinfo{person}{Andrian Marcus},
+  \bibinfo{person}{Lucas Layman}, \bibinfo{person}{Forrest Shull},
+  \bibinfo{person}{Burak Turhan}, {and} \bibinfo{person}{Thomas Zimmermann}.}
+  \bibinfo{year}{[n. d.]}\natexlab{}.
+\newblock \bibinfo{journal}{{\em IEEE Transactions on Software Engineering\/}}
+  (\bibinfo{year}{[n. d.]}).
+\newblock
+\showISBNx{9781605580791}
+\showISSN{0098-5589}
+\showDOI{%
+\url{https://doi.org/10.1109/TSE.2012.83}}
+
+
+\bibitem[\protect\citeauthoryear{Mittas and Angelis}{Mittas and
+  Angelis}{2013}]%
+        {mittas13}
+\bibfield{author}{\bibinfo{person}{Nikolaos Mittas} {and}
+  \bibinfo{person}{Lefteris Angelis}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Ranking and Clustering Software Cost Estimation
+  Models through a Multiple Comparisons Algorithm}.
+\newblock \bibinfo{journal}{{\em IEEE Trans. Software Eng.\/}}
+  \bibinfo{volume}{39}, \bibinfo{number}{4} (\bibinfo{year}{2013}),
+  \bibinfo{pages}{537--551}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Mkaouer, Kessentini, Bechikh, Deb, and
+  \'{O}~Cinn{\'e}ide}{Mkaouer et~al\mbox{.}}{2014}]%
+        {Mkaouer14}
+\bibfield{author}{\bibinfo{person}{Mohamed~Wiem Mkaouer},
+  \bibinfo{person}{Marouane Kessentini}, \bibinfo{person}{Slim Bechikh},
+  \bibinfo{person}{Kalyanmoy Deb}, {and} \bibinfo{person}{Mel
+  \'{O}~Cinn{\'e}ide}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Recommendation System for Software Refactoring
+  Using Innovization and Interactive Dynamic Optimization}. In
+  \bibinfo{booktitle}{{\em Proceedings of the 29th ACM/IEEE International
+  Conference on Automated Software Engineering}} {\em (\bibinfo{series}{ASE
+  '14})}. \bibinfo{publisher}{ACM}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{331--336}.
+\newblock
+\showISBNx{978-1-4503-3013-8}
+\showDOI{%
+\url{https://doi.org/10.1145/2642937.2642965}}
+
+
+\bibitem[\protect\citeauthoryear{Moghadam}{Moghadam}{2011}]%
+        {Moghadam2011}
+\bibfield{author}{\bibinfo{person}{Iman~Hemati Moghadam}.}
+  \bibinfo{year}{2011}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em Search Based Software Engineering: Third
+  International Symposium, SSBSE 2011, Szeged, Hungary, September 10-12, 2011.
+  Proceedings}}.
+\newblock \bibinfo{publisher}{Springer Berlin Heidelberg},
+  \bibinfo{address}{Berlin, Heidelberg}, Chapter Multi-level Automated
+  Refactoring Using Design Exploration, \bibinfo{pages}{70--75}.
+\newblock
+\showISBNx{978-3-642-23716-4}
+\showDOI{%
+\url{https://doi.org/10.1007/978-3-642-23716-4_9}}
+
+
+\bibitem[\protect\citeauthoryear{Nam and Kim}{Nam and Kim}{2015}]%
+        {Nam15}
+\bibfield{author}{\bibinfo{person}{Jaechang Nam} {and} \bibinfo{person}{Sunghun
+  Kim}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{{Heterogeneous defect prediction}}. In
+  \bibinfo{booktitle}{{\em Proc. 2015 10th Jt. Meet. Found. Softw. Eng. -
+  ESEC/FSE 2015}}. \bibinfo{publisher}{ACM Press}, \bibinfo{address}{New York,
+  New York, USA}, \bibinfo{pages}{508--519}.
+\newblock
+\showISBNx{9781450336758}
+\showDOI{%
+\url{https://doi.org/10.1145/2786805.2786814}}
+
+
+\bibitem[\protect\citeauthoryear{O'Keeffe and Cinn{\'e}ide}{O'Keeffe and
+  Cinn{\'e}ide}{2008}]%
+        {OKeeffe08}
+\bibfield{author}{\bibinfo{person}{Mark O'Keeffe} {and}
+  \bibinfo{person}{Mel~\'{O} Cinn{\'e}ide}.} \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{Search-based Refactoring: An Empirical Study}.
+\newblock \bibinfo{journal}{{\em J. Softw. Maint. Evol.\/}}
+  \bibinfo{volume}{20}, \bibinfo{number}{5} (\bibinfo{date}{Sept.}
+  \bibinfo{year}{2008}), \bibinfo{pages}{345--364}.
+\newblock
+\showISSN{1532-060X}
+\showDOI{%
+\url{https://doi.org/10.1002/smr.v20:5}}
+
+
+\bibitem[\protect\citeauthoryear{O'Keeffe and Cinneide}{O'Keeffe and
+  Cinneide}{2007}]%
+        {OKeeffe07}
+\bibfield{author}{\bibinfo{person}{Mark~Kent O'Keeffe} {and}
+  \bibinfo{person}{Mel~O. Cinneide}.} \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{Getting the Most from Search-based Refactoring}. In
+  \bibinfo{booktitle}{{\em Proceedings of the 9th Annual Conference on Genetic
+  and Evolutionary Computation}} {\em (\bibinfo{series}{GECCO '07})}.
+  \bibinfo{publisher}{ACM}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{1114--1120}.
+\newblock
+\showISBNx{978-1-59593-697-4}
+\showDOI{%
+\url{https://doi.org/10.1145/1276958.1277177}}
+
+
+\bibitem[\protect\citeauthoryear{Shepperd and MacDonell}{Shepperd and
+  MacDonell}{2012}]%
+        {shepperd12a}
+\bibfield{author}{\bibinfo{person}{Martin~J. Shepperd} {and}
+  \bibinfo{person}{Steven~G. MacDonell}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Evaluating prediction systems in software project
+  estimation}.
+\newblock \bibinfo{journal}{{\em Information {\&} Software Technology\/}}
+  \bibinfo{volume}{54}, \bibinfo{number}{8} (\bibinfo{year}{2012}),
+  \bibinfo{pages}{820--827}.
+\newblock
+
+
+\end{thebibliography}

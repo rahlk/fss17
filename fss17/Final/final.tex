@@ -1,0 +1,368 @@
+\documentclass[sigconf, proceedings, 9pt]{acmart}
+\settopmatter{printacmref=false} % Removes citation information below abstract
+\renewcommand\footnotetextcopyrightpermission[1]{} % removes footnote with 
+%conference information in first column
+\usepackage{bigstrut}
+\usepackage{amsmath}
+\usepackage{balance}
+\usepackage{dsfont}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage[english]{babel}
+\usepackage{blindtext}
+\usepackage{enumitem}
+\setlist{leftmargin=*}
+\definecolor{Code}{rgb}{.12,.79,.17}
+\definecolor{steel}{rgb}{0.4, 0.4,0.7}
+\definecolor{Green}{rgb}{.12,.79,.17}
+\usepackage{tikz}
+\usepackage{calc}
+\linespread{1.0}
+\def\checkmark{\tikz\fill[scale=0.3](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) 
+-- cycle;} 
+\def\scalecheck{\resizebox{\widthof{\checkmark}*\ratio{\widthof{x}}{\widthof{\normalsize
+ x}}}{!}{\checkmark}}
+%\usepackage[table,dvipsnames]{xcolor}
+\usepackage{colortbl}
+\newcommand{\gray}{\rowcolor[gray]{.95}}
+\pagenumbering{arabic}
+\renewcommand{\i}{\item}
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\be}{\begin{enumerate}}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\ee}{\end{enumerate}}
+\newcommand{\tion}[1]{\S~\ref{sect:#1}}
+\newcommand{\eq}[1]{\S~\ref{eq:#1}}
+\newcommand{\fig}[1]{Fig.~\ref{fig:#1}}
+\setlength{\abovedisplayskip}{4pt}
+\setlength{\belowdisplayskip}{4pt}
+\def\bibfont{\small}
+
+\begin{document}
+\title{On Recommending Actionable Changes\\For Software Projects}
+\author{Rahul Krishna}
+\affiliation{NC State University}
+\email{i.m.ralk@gmail.com}
+%\acmDOI{}
+%\acmISBN{}
+\acmPrice{}
+\acmConference[Fss'17]{}{Foundations of Software Science}{Fall 2017.}{}
+
+\begin{abstract}
+Newer generation of software analytics have placed significant emphasis on data 
+driven decision making. These decisions are usually based on 
+lessons that arise from within a particular project. Some times it is also 
+possible to derive these decisions from across multiple projects. In the past, 
+research efforts have led to the development of XTREE 
+for generating a set of actionable plans within and across projects. We 
+postulated that, each of these plans, if followed will improve the quality of 
+the software project. Our previous work, however, culminated in an open 
+question --- do developers make use of these plans? If so, to what extent?
+This work is an attempt to answer these questions. Specifically, we compare the 
+overlap between changes made by developers and those recommended by XTREE. To 
+this end, we mined several versions of nine popular open source software 
+projects. Our results show that recommendations offered by conventional XTREE 
+overlaps to an extent of 50\% with changes undertaken by the developers. 
+Modified versions of XTREE was developed to improve this overlap. And these 
+offer over 75\% overlap.
+
+\end{abstract}
+
+\maketitle
+
+\section{Introduction}
+\label{sect:intro}
+
+\section{Related Work}
+\label{sect:related}
+
+\section{Planning in Software Engineering}
+\label{sect:planning}
+
+\section{Experimental Setup}
+\label{sect:expt}
+
+\subsection{Datasets}
+\label{sect:datasets}
+\input{datasets_img.tex}
+\input{datasets.tex}
+\input{metrics.tex}
+
+The defect dataset used in this study comprises a total of 9 datasets that were 
+mined from GitHub. The projects primarily involve systems developed in JAVA. 
+For these systems, we measure defects at class and method-level granularity. 
+
+The procedure used to mine these datasets is illustrated in 
+\fig{datasets1}. All the datasets are 
+described in terms of the attributes of \fig{static_metrics}. In order to 
+gather these datasets, we use the following steps:
+\be
+\item Find the most popular JAVA projects on GitHub. For these projects, clone 
+them locally and generate a complete log of release dates and commit messages.
+\item For each release, build the project and gather the CK-Metrics. We used 
+the ckjm tool\footnote{https://github.com/mjureczko/CKJM-extended} for this.
+\item Use the commit messages between each releases to identify ``bug-fixing'' 
+commits.
+\item For each ``bug-fixing'' commit, find the respective files that are 
+changed and mark them as defect prior to the release.
+\ee
+
+The above process, when repeated for all the projects, generates the required 
+datasets. In \fig{datasets}, we summarize all the datasets that were mined for 
+experimentation. All these datasets records the number of known defects 
+for each class using a post-release bug tracking system. The classes are 
+described in terms of 20 OO metrics, including CK metrics and McCabes 
+complexity metrics. 
+
+
+\subsection{Evaluation Strategy}
+\label{sect:procedure}
+\input{expt_design.tex}
+
+Our experimental design is shown in \fig{design}. We divide the
+project data  into two parts the \textit{train set} and the \textit{test test}.
+The train set could either be data that is available locally within a project, 
+or it could be data from the bellwether dataset. We partition the train set to 
+build both a {\em planner} and a {\em  verification oracle}. 
+
+The following paragraph shows our {\bf principle of separation} which, we 
+assert, is necessary to verify this kind of research: 
+\begin{quote}
+	{\em The verification oracle should be built with completely different data to 
+	the planner, i.e., the data used for training a planner and constructing the 
+	verification oracle are disjoint sets.}
+\end{quote}
+
+
+In \tion{planners} we describe the planners and a way to translate these plans 
+into actionable decisions. To assess the effect of acting on these plans, we 
+propose a  \textit{verification oracle}. This is necessary because it can be 
+rather difficult  to judge the  effects of applying the plan. They cannot be 
+assessed just by a rerun of the test
+suite for three reasons: (1) The defects were recorded by a post release bug 
+tracking system. It is entirely possible it escaped detection by the existing 
+test suite; (2) Rewriting test cases to enable coverage of all possible 
+scenarios presents a significant challenge; and (3) It make take a significant 
+amount of effort to write new test cases that 
+identify these changes as they are made.
+
+To resolve this problem, SE researchers such as
+Cheng et al.~\cite{Cheng10}, O'Keefe et al.~\cite{OKeeffe08,OKeeffe07},
+Moghadam~\cite{Moghadam2011} and Mkaouer et al.~\cite{Mkaouer14}
+use a {\em verification oracle} that is learned separately
+from the primary oracle. The verification oracles assesses
+how defective the code is before and after some
+code changes.
+For their secondary verification oracle,
+Cheng, O'Keefe, Moghadam and  Mkaouer et al. use the QMOOD hierarchical
+quality model~\cite{Bansiya02}.
+A shortcoming of QMOOD
+is that quality models learned from other projects
+may perform poorly when applied to new projects~\cite{localvsglobal}.
+
+Hence, for this study, we  eschew
+older quality models like QMOOD.
+
+\subsection{Performance Measures}
+\label{sect:evaluation}
+
+\subsubsection{Effectiveness}
+\label{sect:effectiveness}
+For planning and construction of a verification oracle, we divide the
+project data into two parts the \textit{train set} and the \textit{test test}.
+The train set could either be data that is available locally within a project, 
+or it could be data from the bellwether dataset. We further partition the train 
+set to build both a {\em planner} and a {\em verification oracle}. Note that: 
+{\em The verification oracle should be built with completely different data to 
+the planner.}
+
+After constructing the planner and verification oracle, we (1)~deploy the 
+{planner} to recommend plans; (2)~alter the {\em test} data according to these 
+plans;
+then (3)~apply the {verification oracle} to the altered data to estimate 
+defects; then (3)~Compute the percent improvement, denoted by the following 
+equation:
+\begin{equation}
+\small
+\label{eq:effectiveness}
+R=(1-\frac{\mathit{after}}{\mathit{before}})\times100\%
+\end{equation}
+The value of the measure $R$ has the following properties: (1) If $R = 0\%$, 
+this means  ``no change from baseline''; 
+(2) If $R > 0\%$, this indicates ``improvement'';
+(3) If $R < 0\%$, this indicates ``optimization failure''. Ideally, an 
+effective planner should have an improvement of $R>0$, where larger values 
+indicate better performance. 
+
+\subsection{Statistics}
+\label{sect:stats}
+Changes made to module in a software project are subject to inherent 
+randomness. Researchers have endorsed the use of repeated runs 
+to gather reliable evidence~\cite{vaux2012replicates}. Thus, we repeat the 
+whole experiment independently using a moving window over 
+the various versions  of the project (see \tion{procedure}) to provide evidence 
+that the results are reproducible. These repeats provide us with a sufficiently 
+large sample size to statistically compare the performances. 
+
+At each position of the moving window, we collect the values of effectiveness R 
+(\eq{effectiveness})
+and overlap O (\eq{overlap}). We refrain from 
+performing a cross validation because the process tends to mix the samples 
+from training data (the source) and the test data (other target 
+projects), which defeats the purpose of this study.
+
+To rank the numbers collected above, we use the Scott-Knott test 
+recommended by Mittas and Angelis~\cite{mittas13}. Scott-Knott is a 
+top-down clustering approach used to rank different treatments. If that 
+clustering finds an statistically significant splits in data, then some 
+statistical test is applied to the two divisions to check if they are 
+statistically significant different. If so, Scott-Knott recurses into both 
+halves.
+
+To  apply Scott-Knott, we sorted a list of  $l$ values of \eq{G} 
+values found in $ls$ different methods. Then, we split $l$ into 
+sub-lists $m,n$ in order to maximize the expected value of differences in 
+the observed performances before and after divisions. E.g. for lists 
+$l,m,n$ of size $ls,ms,ns$ where $l=m\cup n$: 
+\[E(\Delta)=\frac{ms}{ls}abs(m.\mu - l.\mu)^2 + \frac{ns}{ls}abs(n.\mu - 
+l.\mu)^2\] 
+
+
+We then apply a statistical hypothesis test $H$ to check
+if $m,n$ are significantly different. In our case, the conjunction of 
+bootstrapping and A12 test. Both the techniques are non-parametric in nature, 
+i.e., they do not make gaussian assumption about the data. As for hypothesis 
+test, we use a non-parametric bootstrapping test as endorsed by Efron \& 
+Tibshirani~\cite[p220-223]{efron93}. Even with statistical significance, it is 
+possible that the difference
+	can be so small as to be of no practical value. This is known as a ``small 
+	effect''. To ensure that the statistical significance is not due to ``small 
+	effect'' we use effect-size tests in conjunction with hypothesis tests. A 
+	popular effect size test used in SE literature is the A12 test. It has been 
+	endorsed by several SE researchers~\cite{leech2002call, poulding10, arcuri11, 
+	shepperd12a, kampenes07, Kocaguneli2013:ep}. It was first proposed by Vargha 
+	and Delany~\cite{vargha2000}. In our context,
+	given the performance measure 
+	G, the A12 statistics measures the
+	probability that one treatment yields higher $G$ values than another. If the 
+	two algorithms are equivalent, then A12 = 0.5. Likewise if $A12 \ge 0.6$, then 
+	60\% of the times, values of one treatment are significantly greater that the 
+	other. In such a case, it can be claimed that there is \textit{significant 
+	effect} to justify the hypothesis test $H$. In our case, we divide the data if 
+	\textit{both} bootstrap sampling and effect size test agree that a division is 
+	statistically significant (with a
+	confidence of 99\%) and not a small effect ($A12 \ge 0.6$). Then, we recurse 
+	on each of these splits to rank G-scores from best to worst.
+
+
+
+\section{Results}
+\label{sect:results}
+
+	\section{Reliability and Validity of Conclusions}
+
+\section{Conclusions and Future Work}
+\label{sect:conclusion}
+
+\label{sect:valid}
+
+
+
+The results of this paper are biased by our choice of code reorganization
+goal (reducing defects) and our choice of measures collected from software
+project (OO measures such as depth of inheritance, number of child classes,
+etc). That said, it should be possible extend the methods of this paper to 
+other
+kinds of goals (e.g. maintainability, reliability, security, or the 
+knowledge sharing
+measures) and other kinds of
+inputs (e.g. the process measures favored by Rahman,
+Devanbu et al.~\cite{Rahman2013})
+
+\subsection{Reliability}
+Reliability refers to the consistency of the results obtained
+from the research. It has at least two components: internal
+and external reliability.
+
+Internal reliability checks if an independent researcher
+reanalyzing the data would come to the same conclusion.
+To assist other researchers exploring this point, we offer a full 
+replication package for this study at
+https://github.com/rahlk/FSS17.
+
+External reliability assesses how well independent researchers
+could reproduce the study. To increase external
+reliability, this paper has taken care to clearly define our
+algorithms. Also, all the data used in this work is available
+online.
+
+For the researcher wishing to reproduce our work to other kinds of goals, 
+we offer the following advice:
+
+\begin{itemize}
+\item Find a data source for the other measures of interest;
+\item Implement another secondary verification oracle that can assess 
+maintainability, reliability, security, technical debt, etc;
+\item Implement a better primary verification oracle that can do ``better'' 
+than XTREE at finding changes (where ``better'' is defined in terms
+of the opinions of the verification oracle). 
+\end{itemize}
+
+
+\subsection{Validity}
+
+This paper is a case study that studied the effects of  limiting 
+unnecessary code reorganization on some data sets. This section discusses 
+limitations of such case studies. In this context, validity refers to the 
+extent to which a piece of research actually
+investigates what the researcher purports to investigate.
+Validity has at least two components: internal and
+external validity.
+
+
+Based on the case study presented above,
+as well as the discussion in \tion{prelim},
+we believe that defect indicators (e.g. \mbox{{\em loc}$>$ 100})
+have limited external validity beyond the projects from which they are 
+derived.
+While specific models are externally valid,
+there may still be general methods like XTREE for finding the good local 
+models.
+
+Our definition of bad smells is limited to those represented by OO code 
+metrics (a premise often used in related work).
+XTREE, Shatnawi, Alves et al. can  only comment
+on bad smells   expressed as code metrics
+in the historical log of a project.
+
+If developers want to justify their code reorganizations
+via bad smells expressed in other terminology,
+then the  analysis of this paper must:
+\begin{itemize}
+	\item Either wait till
+	data about those new
+	terms has been collected.
+	\item Or, apply cutting edge transfer learning
+	methods~\cite{Nam15,Jing15, krishna16} to map data from other projects
+	into the current one.
+\end{itemize}
+Note that the transfer learning approach would
+be highly experimental and require more study
+before it can be safely recommended.
+
+Sampling bias threatens any data mining analysis; i.e., what matters
+there may not be true here. For example, the data sets used here comes 
+from 
+Jureczko et al. and any biases in their selection procedures
+threaten the validity of these results.
+That said,
+the best we can do is define our methods and publicize our data and code so 
+that other researchers can
+try to repeat our results and, perhaps, point out a previously unknown bias
+in our analysis. Hopefully, other researchers will emulate our methods in
+order to repeat, refute, or improve our results.
+
+\balance
+\bibliographystyle{ACM-Reference-format}
+\bibliography{final}
+\end{document}

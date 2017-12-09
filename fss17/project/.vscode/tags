@@ -1,0 +1,988 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ABCD	../tools/stats.py	/^class ABCD():$/;"	kind:class	line:36
+ABCD	../tools/tune/model.py	/^from Utils.StatsUtils import ABCD$/;"	kind:namespace	line:17
+ABCD.py	../Utils/StatsUtils/ABCD.py	1;"	kind:file	line:1
+Abcd	../tools/axe/abcd.py	/^class Abcd:$/;"	kind:class	line:6
+BallTree	../oracle/smote.py	/^from sklearn.neighbors import BallTree$/;"	kind:namespace	line:8
+BallTree	../tools/oracle.py	/^from sklearn.neighbors import BallTree$/;"	kind:namespace	line:12
+CART	../tools/Discretize.py	/^from sklearn.tree import DecisionTreeClassifier as CART$/;"	kind:namespace	line:21
+Cache	../tools/axe/lib.py	/^class Cache:$/;"	kind:class	line:92
+Cache	../tools/axe/libWhere.py	/^class Cache:$/;"	kind:class	line:91
+Changes	../Utils/ExperimentUtils.py	/^class Changes():$/;"	kind:class	line:156
+Changes	../commons/XTREE.py	/^from Utils.ExperimentUtils import Changes$/;"	kind:namespace	line:20
+Counter	../oracle/smote.py	/^from collections import Counter$/;"	kind:namespace	line:1
+Counter	../tools/Discretize.py	/^from collections import Counter$/;"	kind:namespace	line:18
+Counter	../tools/oracle.py	/^from collections import Counter$/;"	kind:namespace	line:4
+Counter	../tools/pyC45.py	/^from collections import Counter$/;"	kind:namespace	line:14
+CrossVal.py	../Utils/StatsUtils/CrossVal.py	1;"	kind:file	line:1
+CrossValidation	../Utils/StatsUtils/CrossVal.py	/^class CrossValidation:$/;"	kind:class	line:39
+DataFrame	../tools/misc.py	/^from pandas import DataFrame, read_csv, concat$/;"	kind:namespace	line:1
+DecisionTreeClassifier	../tools/axe/learn.py	/^from sklearn.tree import DecisionTreeClassifier$/;"	kind:namespace	line:6
+DefectData	../tools/InfoGain.py	/^from Data.DefectPrediction import DefectData$/;"	kind:namespace	line:3
+Discretize.py	../tools/Discretize.py	1;"	kind:file	line:1
+E	../tools/axe/settingsWhere.py	/^class E:$/;"	kind:class	line:35
+EmptyDataError	../Utils/FileUtil.py	/^from pandas.io.common import EmptyDataError$/;"	kind:namespace	line:13
+ExperimentUtils.py	../Utils/ExperimentUtils.py	1;"	kind:file	line:1
+FeatureSelection.py	../commons/FeatureSelection.py	1;"	kind:file	line:1
+FileUtil.py	../Utils/FileUtil.py	1;"	kind:file	line:1
+GaussianNB	../tools/axe/learn.py	/^from sklearn.naive_bayes import GaussianNB$/;"	kind:namespace	line:7
+GetData.py	../data/GetData.py	1;"	kind:file	line:1
+GradientBoostingClassifier	../oracle/model.py	/^from sklearn.ensemble import GradientBoostingClassifier$/;"	kind:namespace	line:10
+GridSearchCV	../oracle/model.py	/^from sklearn.model_selection import GridSearchCV$/;"	kind:namespace	line:11
+InfoGain.py	../tools/InfoGain.py	1;"	kind:file	line:1
+LeaveOneOut	../Utils/StatsUtils/CrossVal.py	/^from sklearn.model_selection import LeaveOneOut$/;"	kind:namespace	line:7
+LeaveOneOutValidation	../Utils/StatsUtils/CrossVal.py	/^class LeaveOneOutValidation:$/;"	kind:class	line:54
+LogisticRegression	../commons/FeatureSelection.py	/^from sklearn.linear_model import LogisticRegression$/;"	kind:namespace	line:4
+LogisticRegression	../tools/Discretize.py	/^from sklearn.linear_model import LogisticRegression$/;"	kind:namespace	line:20
+MakeAModel	../Utils/AxeUtils/MakeAModel.py	/^class MakeAModel(object):$/;"	kind:class	line:26
+MakeAModel	../Utils/FileUtil.py	/^from AxeUtils.MakeAModel import MakeAModel$/;"	kind:namespace	line:15
+MakeAModel.py	../Utils/AxeUtils/MakeAModel.py	1;"	kind:file	line:1
+MiscUtils.py	../Utils/MiscUtils.py	1;"	kind:file	line:1
+N	../tools/axe/lib.py	/^class N():$/;"	kind:class	line:56
+N	../tools/axe/libWhere.py	/^class N():$/;"	kind:class	line:56
+N	../tools/tune/dEvol.py	/^  N=100$/;"	kind:variable	line:10
+Num	../Utils/StatsUtils/ScottKnott.py	/^class Num:$/;"	kind:class	line:134
+Num	../tools/axe/counts.py	/^class Num(Thing):$/;"	kind:class	line:148
+Num	../tools/containers.py	/^class Num(Thing):$/;"	kind:class	line:74
+Num	../tools/sk.py	/^class Num:$/;"	kind:class	line:134
+Patches	../commons/XTREE.py	/^class Patches:$/;"	kind:class	line:25
+RFE	../commons/FeatureSelection.py	/^from sklearn.feature_selection import RFE$/;"	kind:namespace	line:3
+RFE	../tools/Discretize.py	/^from sklearn.feature_selection import RFE$/;"	kind:namespace	line:19
+RandomForestClassifier	../oracle/model.py	/^from sklearn.ensemble import RandomForestClassifier$/;"	kind:namespace	line:7
+RandomForestClassifier	../tools/axe/learn.py	/^from sklearn.ensemble import RandomForestClassifier $/;"	kind:namespace	line:4
+RandomForestClassifier	../tools/oracle.py	/^from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor$/;"	kind:namespace	line:11
+RandomForestRegressor	../tools/oracle.py	/^from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor$/;"	kind:namespace	line:11
+Row	../tools/axe/table.py	/^class Row(Thing):$/;"	kind:class	line:79
+SMOTE	../commons/XTREE.py	/^from oracle.smote import SMOTE$/;"	kind:namespace	line:18
+SMOTE	../oracle/model.py	/^from smote import SMOTE$/;"	kind:namespace	line:9
+SMOTE	../oracle/smote.py	/^def SMOTE(data=None, atleast=50, atmost=200, a=None, b=None, k=14):$/;"	kind:function	line:16
+SMOTE	../tools/oracle.py	/^def SMOTE(data=None, atleast=50, atmost=100, a=None,b=None, k=5, resample=False):$/;"	kind:function	line:19
+SVC	../tools/oracle.py	/^from sklearn.svm import SVC, SVR$/;"	kind:namespace	line:13
+SVM	../tools/oracle.py	/^def SVM(train, test, tunings=None, smoteit=True, bin=True, regress=False):$/;"	kind:function	line:162
+SVR	../tools/oracle.py	/^from sklearn.svm import SVC, SVR$/;"	kind:namespace	line:13
+Sample	../tools/axe/counts.py	/^class Sample(Thing):$/;"	kind:class	line:84
+ScottKnott.py	../Utils/StatsUtils/ScottKnott.py	1;"	kind:file	line:1
+StratifiedKFold	../Utils/StatsUtils/CrossVal.py	/^from sklearn.model_selection import StratifiedKFold$/;"	kind:namespace	line:6
+Sym	../tools/axe/counts.py	/^class Sym(Thing):$/;"	kind:class	line:42
+Sym	../tools/containers.py	/^class Sym(Thing):$/;"	kind:class	line:39
+The	../tools/axe/settings.py	/^The = Thing()  # Assign the class 'Thing' to a label 'The'$/;"	kind:variable	line:28
+The	../tools/axe/settingsWhere.py	/^The = None$/;"	kind:variable	line:91
+Thing	../tools/axe/counts.py	/^class Thing(object):$/;"	kind:class	line:28
+Thing	../tools/axe/settings.py	/^class Thing(object):$/;"	kind:class	line:6
+Thing	../tools/containers.py	/^class Thing(object):$/;"	kind:class	line:4
+Thing	../tools/pyC45.py	/^from containers import Thing$/;"	kind:namespace	line:20
+TrainTestValidate	../Utils/StatsUtils/CrossVal.py	/^class TrainTestValidate:$/;"	kind:class	line:12
+TrainTestValidate	../main.py	/^from Utils.StatsUtils.CrossVal import TrainTestValidate$/;"	kind:namespace	line:20
+TrainTestValidate	../warnplan2.py	/^from Utils.StatsUtils.CrossVal import TrainTestValidate$/;"	kind:namespace	line:20
+XTREE.py	../commons/XTREE.py	1;"	kind:file	line:1
+_Abcd	../tools/axe/abcd.py	/^def _Abcd(before=None, after=None, show=False):$/;"	kind:function	line:93
+_Data	../data/GetData.py	/^class _Data:$/;"	kind:class	line:11
+_RF	../tools/oracle.py	/^def _RF():$/;"	kind:function	line:195
+__add__	../Utils/StatsUtils/ScottKnott.py	/^        def __add__(i1, i2): return total(i1.all + i2.all)$/;"	kind:member	line:358
+__add__	../Utils/StatsUtils/ScottKnott.py	/^    def __add__(i, j):$/;"	kind:member	line:156
+__add__	../tools/axe/counts.py	/^  def __add__(i,symbol): i.inc(symbol,  1)$/;"	kind:member	line:49
+__add__	../tools/axe/counts.py	/^  def __add__(i,x):$/;"	kind:member	line:174
+__add__	../tools/axe/counts.py	/^  def __add__(i,x):$/;"	kind:member	line:89
+__add__	../tools/containers.py	/^  def __add__(i,symbol): i.inc(symbol,  1)$/;"	kind:member	line:46
+__add__	../tools/containers.py	/^  def __add__(i,x):$/;"	kind:member	line:99
+__add__	../tools/sk.py	/^    def __add__(i1, i2):$/;"	kind:member	line:356
+__add__	../tools/sk.py	/^  def __add__(i, j):$/;"	kind:member	line:157
+__author__	../tools/containers.py	/^__author__ = 'rkrsn'$/;"	kind:variable	line:2
+__author__	../tools/where.py	/^__author__ = 'rkrsn'$/;"	kind:variable	line:7
+__call__	../tools/axe/abcd.py	/^  def __call__(i, actual=None, predicted=None):$/;"	kind:member	line:19
+__call__	../tools/axe/settingsWhere.py	/^    def __call__(i, *lst, **d):$/;"	kind:member	line:40
+__call__	../tools/stats.py	/^  def __call__(self):$/;"	kind:member	line:44
+__hash__	../tools/axe/counts.py	/^  def __hash__(i) : return i._id$/;"	kind:member	line:37
+__hash__	../tools/axe/settings.py	/^  def __hash__(i):$/;"	kind:member	line:23
+__hash__	../tools/containers.py	/^  def __hash__(i) : return i._id$/;"	kind:member	line:13
+__iadd__	../tools/axe/lib.py	/^  def __iadd__(i, x):$/;"	kind:member	line:73
+__iadd__	../tools/axe/lib.py	/^  def __iadd__(i, x):$/;"	kind:member	line:99
+__iadd__	../tools/axe/libWhere.py	/^    def __iadd__(i, x):$/;"	kind:member	line:73
+__iadd__	../tools/axe/libWhere.py	/^    def __iadd__(i, x):$/;"	kind:member	line:98
+__init__	../Utils/AxeUtils/MakeAModel.py	/^  def __init__(self):$/;"	kind:member	line:28
+__init__	../Utils/AxeUtils/MakeAModel.py	/^  def __init__(self, **d):$/;"	kind:member	line:18
+__init__	../Utils/ExperimentUtils.py	/^    def __init__(self):$/;"	kind:member	line:161
+__init__	../Utils/StatsUtils/CrossVal.py	/^    def __init__(self):$/;"	kind:member	line:13
+__init__	../Utils/StatsUtils/CrossVal.py	/^    def __init__(self):$/;"	kind:member	line:40
+__init__	../Utils/StatsUtils/CrossVal.py	/^    def __init__(self):$/;"	kind:member	line:55
+__init__	../Utils/StatsUtils/ScottKnott.py	/^        def __init__(i, some=[]):$/;"	kind:member	line:347
+__init__	../Utils/StatsUtils/ScottKnott.py	/^    def __init__(i, **fields):$/;"	kind:member	line:25
+__init__	../Utils/StatsUtils/ScottKnott.py	/^    def __init__(i, name, inits=[]):$/;"	kind:member	line:137
+__init__	../commons/XTREE.py	/^    def __init__(i, train, test, trainDF, testDF, tree=None, config=False):$/;"	kind:member	line:26
+__init__	../data/GetData.py	/^    def __init__(self, dir):$/;"	kind:member	line:14
+__init__	../tools/axe/abcd.py	/^  def __init__(i, db="all", rx="all", show=False):$/;"	kind:member	line:8
+__init__	../tools/axe/counts.py	/^  def __init__(i,**fields) : $/;"	kind:member	line:30
+__init__	../tools/axe/counts.py	/^  def __init__(i,init=[], opts=The.sample,w=1):$/;"	kind:member	line:150
+__init__	../tools/axe/counts.py	/^  def __init__(i,inits=[],opts=The.sample):$/;"	kind:member	line:86
+__init__	../tools/axe/counts.py	/^  def __init__(i,inits=[],w=1):$/;"	kind:member	line:43
+__init__	../tools/axe/lib.py	/^  def __init__(i, inits=[]):$/;"	kind:member	line:59
+__init__	../tools/axe/lib.py	/^  def __init__(i, inits=[]):$/;"	kind:member	line:95
+__init__	../tools/axe/libWhere.py	/^    def __init__(i, inits=[]):$/;"	kind:member	line:59
+__init__	../tools/axe/libWhere.py	/^    def __init__(i, inits=[]):$/;"	kind:member	line:94
+__init__	../tools/axe/settings.py	/^  def __init__(i, **fields):$/;"	kind:member	line:9
+__init__	../tools/axe/settingsWhere.py	/^    def __init__(i, **d): i.has().update(**d)$/;"	kind:member	line:19
+__init__	../tools/axe/settingsWhere.py	/^    def __init__(i, txt):$/;"	kind:member	line:36
+__init__	../tools/axe/table.py	/^  def __init__(i,cells):$/;"	kind:member	line:80
+__init__	../tools/containers.py	/^  def __init__(i,**fields) :$/;"	kind:member	line:6
+__init__	../tools/containers.py	/^  def __init__(i,init=[], opts=sample,w=1):$/;"	kind:member	line:76
+__init__	../tools/containers.py	/^  def __init__(i,inits=[],w=1):$/;"	kind:member	line:40
+__init__	../tools/sk.py	/^    def __init__(i, some=[]):$/;"	kind:member	line:344
+__init__	../tools/sk.py	/^  def __init__(i, **fields):$/;"	kind:member	line:27
+__init__	../tools/sk.py	/^  def __init__(i, name, inits=[]):$/;"	kind:member	line:137
+__init__	../tools/stats.py	/^  def __init__(self, before, after):$/;"	kind:member	line:40
+__init__	../tools/stats.py	/^  def __init__(self, before, after, indx):$/;"	kind:member	line:5
+__init__	../tools/tune/model.py	/^  def __init__(i, data, obj=2,n_dec=7,smoteTune=True):$/;"	kind:member	line:23
+__init__.py	../Utils/AxeUtils/__init__.py	1;"	kind:file	line:1
+__init__.py	../Utils/StatsUtils/__init__.py	1;"	kind:file	line:1
+__init__.py	../Utils/__init__.py	1;"	kind:file	line:1
+__init__.py	../__init__.py	1;"	kind:file	line:1
+__init__.py	../commons/__init__.py	1;"	kind:file	line:1
+__init__.py	../core/__init__.py	1;"	kind:file	line:1
+__init__.py	../data/__init__.py	1;"	kind:file	line:1
+__init__.py	../oracle/__init__.py	1;"	kind:file	line:1
+__init__.py	../tools/__init__.py	1;"	kind:file	line:1
+__init__.py	../tools/axe/__init__.py	1;"	kind:file	line:1
+__init__.py	../tools/tune/__init__.py	1;"	kind:file	line:1
+__isub__	../tools/axe/lib.py	/^  def __isub__(i, x):$/;"	kind:member	line:81
+__isub__	../tools/axe/libWhere.py	/^    def __isub__(i, x):$/;"	kind:member	line:81
+__lt__	../Utils/StatsUtils/ScottKnott.py	/^    def __lt__(i, j):$/;"	kind:member	line:173
+__lt__	../tools/axe/counts.py	/^  def __lt__(i,j): $/;"	kind:member	line:162
+__lt__	../tools/containers.py	/^  def __lt__(i,j):$/;"	kind:member	line:87
+__lt__	../tools/sk.py	/^  def __lt__(i, j):$/;"	kind:member	line:174
+__repr__	../Utils/StatsUtils/ScottKnott.py	/^    def __repr__(i):$/;"	kind:member	line:30
+__repr__	../tools/axe/settingsWhere.py	/^    def __repr__(i):$/;"	kind:member	line:25
+__repr__	../tools/axe/settingsWhere.py	/^    def __repr__(i):$/;"	kind:member	line:47
+__repr__	../tools/sk.py	/^  def __repr__(i):$/;"	kind:member	line:34
+__sub__	../tools/axe/counts.py	/^  def __sub__(i,symbol): i.inc(symbol, -1)$/;"	kind:member	line:50
+__sub__	../tools/axe/counts.py	/^  def __sub__(i,x):$/;"	kind:member	line:182
+__sub__	../tools/containers.py	/^  def __sub__(i,symbol): i.inc(symbol, -1)$/;"	kind:member	line:47
+__sub__	../tools/containers.py	/^  def __sub__(i,x):$/;"	kind:member	line:106
+__test_smote	../oracle/smote.py	/^def __test_smote():$/;"	kind:function	line:95
+_a12	../Utils/StatsUtils/ScottKnott.py	/^def _a12():$/;"	kind:function	line:240
+_a12	../tools/sk.py	/^def _a12():$/;"	kind:function	line:239
+_bootstraped	../Utils/StatsUtils/ScottKnott.py	/^def _bootstraped():$/;"	kind:function	line:380
+_bootstraped	../tools/sk.py	/^def _bootstraped():$/;"	kind:function	line:376
+_calIg	../tools/InfoGain.py	/^    def _calIg():$/;"	kind:function	line:8
+_discreteTable	../tools/axe/fi.py	/^def _discreteTable(f="data.dat\/weather2.csv"):$/;"	kind:function	line:11
+_distances	../Utils/AxeUtils/w2.py	/^def _distances(m=nasa93):$/;"	kind:function	line:486
+_distances	../tools/axe/where2.py	/^def _distances(m=nasa93):$/;"	kind:function	line:356
+_ediv	../tools/axe/fi.py	/^def _ediv():$/;"	kind:function	line:58
+_makeamodel	../Utils/AxeUtils/MakeAModel.py	/^def _makeamodel(file=None):$/;"	kind:function	line:91
+_nasa93	../tools/axe/nasa93.py	/^def _nasa93(): print(nasa93.__name__)$/;"	kind:function	line:127
+_scores	../Utils/AxeUtils/w2.py	/^def _scores():$/;"	kind:function	line:466
+_scores	../tools/axe/where2.py	/^def _scores():$/;"	kind:function	line:342
+_sdiv	../tools/axe/cube.py	/^def _sdiv():$/;"	kind:function	line:349
+_smote	../tools/oracle.py	/^def _smote():$/;"	kind:function	line:105
+_test	../data/GetData.py	/^def _test():$/;"	kind:function	line:27
+_test	../tools/pyC45.py	/^def _test():$/;"	kind:function	line:197
+_test	../tools/where.py	/^def _test(dir='..\/data.dat\/Jureczko\/ant\/'):$/;"	kind:function	line:52
+_test0	../tools/Discretize.py	/^def _test0():$/;"	kind:function	line:117
+_test1	../tools/Discretize.py	/^def _test1():$/;"	kind:function	line:125
+_test_abcd	../Utils/StatsUtils/ABCD.py	/^def _test_abcd():$/;"	kind:function	line:85
+_test_model	../oracle/model.py	/^def _test_model():$/;"	kind:function	line:130
+_test_scottknott	../Utils/StatsUtils/ScottKnott.py	/^def _test_scottknott():$/;"	kind:function	line:589
+_tileX	../Utils/StatsUtils/ScottKnott.py	/^def _tileX():$/;"	kind:function	line:115
+_tileX	../tools/sk.py	/^def _tileX():$/;"	kind:function	line:117
+_where	../Utils/AxeUtils/w2.py	/^def _where(m=nasa93):$/;"	kind:function	line:520
+a	../tools/axe/config.py	/^a=1,$/;"	kind:variable	line:9
+a12	../Utils/StatsUtils/ScottKnott.py	/^def a12(lst1, lst2):$/;"	kind:function	line:208
+a12	../tools/axe/counts.py	/^  def a12(i,j,small=The.math.a12.small,$/;"	kind:member	line:221
+a12	../tools/axe/counts.py	/^def a12(lst1,lst2, gt= a12gt,$/;"	kind:function	line:310
+a12	../tools/sk.py	/^def a12(lst1, lst2):$/;"	kind:function	line:209
+a12ed	../tools/axe/counts.py	/^def a12ed(small=The.math.a12.small,$/;"	kind:function	line:393
+a12eged	../tools/axe/counts.py	/^def a12eged():$/;"	kind:function	line:351
+a12gt	../tools/axe/counts.py	/^def a12gt(x,y):$/;"	kind:function	line:305
+a12slow	../Utils/StatsUtils/ScottKnott.py	/^def a12slow(lst1, lst2):$/;"	kind:function	line:195
+a12slow	../tools/axe/counts.py	/^def a12slow(lst1,lst2,rev=True):              $/;"	kind:function	line:339
+a12slow	../tools/sk.py	/^def a12slow(lst1, lst2):$/;"	kind:function	line:196
+aDist	../tools/where.py	/^  def aDist(one, two):$/;"	kind:function	line:23
+abcd	../Utils/ExperimentUtils.py	/^from Utils.StatsUtils.ABCD import abcd$/;"	kind:namespace	line:13
+abcd	../Utils/StatsUtils/ABCD.py	/^def abcd(actual, predicted, distribution, as_percent=True, threshold=0):$/;"	kind:function	line:7
+abcd.py	../tools/axe/abcd.py	1;"	kind:file	line:1
+add	../Utils/StatsUtils/ScottKnott.py	/^    def add(i, x):$/;"	kind:member	line:148
+add	../tools/sk.py	/^  def add(i, x):$/;"	kind:member	line:149
+all	../tools/axe/counts.py	/^  def all(i)    : return i._cache$/;"	kind:member	line:98
+all	../tools/axe/counts.py	/^  def all(i)   : return i.some.all()$/;"	kind:member	line:173
+all	../tools/containers.py	/^  def all(i)   : return i.some.all()$/;"	kind:member	line:98
+allpairs	../Utils/AxeUtils/w2.py	/^def allpairs(m, data):$/;"	kind:function	line:67
+also	../tools/axe/counts.py	/^  def also(i):$/;"	kind:member	line:102
+also	../tools/axe/counts.py	/^  def also(i):$/;"	kind:member	line:63
+also	../tools/axe/counts.py	/^  def also(i,**d)  : return i.override(d)$/;"	kind:member	line:35
+also	../tools/axe/settings.py	/^  def also(i, **d):$/;"	kind:member	line:16
+also	../tools/containers.py	/^  def also(i):$/;"	kind:member	line:60
+also	../tools/containers.py	/^  def also(i,**d)  : return i.override(d)$/;"	kind:member	line:11
+any	../Utils/StatsUtils/ScottKnott.py	/^    def any(n): return random.uniform(0, n)$/;"	kind:function	line:289
+any	../Utils/StatsUtils/ScottKnott.py	/^any = random.choice$/;"	kind:variable	line:47
+any	../tools/axe/counts.py	/^  def any(n)  : return random.uniform(0,n)$/;"	kind:function	line:291
+any	../tools/axe/lib.py	/^any = random.choice$/;"	kind:variable	line:125
+any	../tools/axe/libWhere.py	/^any = random.choice$/;"	kind:variable	line:126
+any	../tools/sk.py	/^  def any(n):$/;"	kind:function	line:288
+any	../tools/sk.py	/^any = random.choice$/;"	kind:variable	line:49
+apex	../tools/axe/dtree.py	/^def apex(test, tree, opt=The.tree):$/;"	kind:function	line:174
+apex1	../tools/axe/dtree.py	/^  def apex1(cells, tree):$/;"	kind:function	line:187
+apex1	../tools/dtree.py	/^  def apex1(cells,tree):$/;"	kind:function	line:27
+apply	../Utils/ExperimentUtils.py	/^def apply(changes, row):$/;"	kind:function	line:60
+apply2	../Utils/ExperimentUtils.py	/^def apply2(changes, row):$/;"	kind:function	line:72
+apply3	../Utils/ExperimentUtils.py	/^def apply3(row, cols, pk_best):$/;"	kind:function	line:84
+argparse	../tools/axe/args.py	/^import argparse$/;"	kind:namespace	line:1
+args	../tools/axe/args.py	/^args = parser.parse_args()$/;"	kind:variable	line:10
+args.py	../tools/axe/args.py	1;"	kind:file	line:1
+around	../Utils/AxeUtils/w2.py	/^def around(leaf, f=lambda x: x):$/;"	kind:function	line:440
+around	../tools/axe/where2.py	/^def around(leaf, f=lambda x: x):$/;"	kind:function	line:322
+ask	../tools/axe/abcd.py	/^  def ask(i, raw=True):$/;"	kind:member	line:58
+atom	../Utils/AxeUtils/__init__.py	/^def atom(x):$/;"	kind:function	line:1
+atom	../Utils/AxeUtils/w2.py	/^from Utils.AxeUtils import atom$/;"	kind:namespace	line:25
+atom	../tools/axe/demos.py	/^def atom(x):$/;"	kind:function	line:5
+axe.py	../tools/axe/axe.py	1;"	kind:file	line:1
+b	../tools/axe/config.py	/^    b=2,$/;"	kind:variable	line:10
+base	../tools/axe/config.py	/^import sys,base$/;"	kind:namespace	line:2
+bdom	../tools/tune/dEvol.py	/^  def bdom(x, y, better=['more','more']):$/;"	kind:function	line:51
+best	../tools/tune/dEvol.py	/^  def best(aa):$/;"	kind:function	line:123
+body	../tools/axe/table.py	/^def body(cells,t,keep=True):$/;"	kind:function	line:68
+bootstrap	../Utils/StatsUtils/ScottKnott.py	/^def bootstrap(y0, z0, conf=0.01, b=1000):$/;"	kind:function	line:339
+bootstrap	../tools/axe/counts.py	/^  def bootstrap(i,j,conf = The.math.brink.conf,$/;"	kind:member	line:218
+bootstrap	../tools/axe/counts.py	/^def bootstrap(y,z,$/;"	kind:function	line:279
+bootstrap	../tools/sk.py	/^def bootstrap(y0, z0, conf=0.01, b=1000):$/;"	kind:function	line:337
+breaks	../tools/axe/counts.py	/^  def breaks(i) : return i.also().breaks$/;"	kind:member	line:101
+breaks	../tools/axe/counts.py	/^  def breaks(i): return i.some.breaks()$/;"	kind:member	line:172
+breaks	../tools/containers.py	/^  def breaks(i): return i.some.breaks()$/;"	kind:member	line:97
+by	../tools/axe/lib.py	/^by = lambda x: random.uniform(0, x)$/;"	kind:variable	line:123
+by	../tools/axe/libWhere.py	/^by = lambda x: random.uniform(0, x)$/;"	kind:variable	line:124
+c	../tools/axe/config.py	/^    c=Bag(d=[1,2,3,4],$/;"	kind:variable	line:11
+cdom	../tools/tune/dEvol.py	/^  def cdom(x, y, better=['more','more']):$/;"	kind:function	line:32
+centroid	../tools/axe/counts.py	/^  def centroid(i): return i.median()$/;"	kind:member	line:169
+centroid	../tools/axe/counts.py	/^  def centroid(i): return i.mode()$/;"	kind:member	line:59
+centroid	../tools/axe/table.py	/^def centroid(tbl,selections=False):$/;"	kind:function	line:44
+centroid	../tools/containers.py	/^  def centroid(i): return i.median()$/;"	kind:member	line:94
+centroid	../tools/containers.py	/^  def centroid(i): return i.mode()$/;"	kind:member	line:56
+cf	../tools/tune/dEvol.py	/^  cf=0$/;"	kind:variable	line:12
+change	../tools/axe/cube.py	/^  def change(x):$/;"	kind:function	line:377
+change	../tools/axe/dtree.py	/^def change(test, tree, how, opt=The.tree):$/;"	kind:function	line:214
+choice	../oracle/smote.py	/^from random import choice, uniform as rand$/;"	kind:namespace	line:3
+choice	../tools/oracle.py	/^from random import choice, uniform as rand$/;"	kind:namespace	line:6
+chop	../tools/axe/counts.py	/^  def chop(bins, before, i):$/;"	kind:function	line:119
+chops	../tools/axe/counts.py	/^def chops(lst,sorted=False,dull=0,opts=The.sample):$/;"	kind:function	line:118
+classStats	../tools/axe/dtree.py	/^def classStats(n):$/;"	kind:function	line:110
+classify	../tools/axe/dtree.py	/^def classify(test, tree, opt=The.tree):$/;"	kind:function	line:202
+classify	../tools/dtree.py	/^def classify(test, tree):$/;"	kind:function	line:15
+clone	../tools/axe/table.py	/^def clone(tbl1,rows=[],discrete=False,keepSelections=False) :$/;"	kind:function	line:106
+closest	../Utils/AxeUtils/w2.py	/^def closest(m, i, all):$/;"	kind:function	line:183
+closest	../tools/axe/cube.py	/^def closest(t,x,opt):$/;"	kind:function	line:60
+closest	../tools/axe/where2.py	/^def closest(m,i,all):$/;"	kind:function	line:108
+cmd	../tools/axe/demos.py	/^def cmd(com="demo('-h')"):$/;"	kind:function	line:11
+cohen	../tools/axe/counts.py	/^  def cohen(i,j,small=The.math.brink.cohen):$/;"	kind:member	line:201
+concat	../Utils/FileUtil.py	/^from pandas import read_csv, concat$/;"	kind:namespace	line:12
+concat	../tools/misc.py	/^from pandas import DataFrame, read_csv, concat$/;"	kind:namespace	line:1
+config.py	../tools/axe/config.py	1;"	kind:file	line:1
+containers.py	../tools/containers.py	1;"	kind:file	line:1
+count	../tools/Discretize.py	/^                def count(lst): return len(Counter(lst).keys())$/;"	kind:function	line:93
+counter	../tools/stats.py	/^class counter():$/;"	kind:class	line:4
+counts.py	../tools/axe/counts.py	1;"	kind:file	line:1
+create_tbl	../Utils/FileUtil.py	/^def create_tbl($/;"	kind:function	line:39
+cross	../tools/axe/dtree.py	/^def cross(file='data.dat\/housingD.csv', rseed=1):$/;"	kind:function	line:310
+csv2DF	../tools/misc.py	/^def csv2DF(dir, as_mtx=False, toBin=False):$/;"	kind:function	line:17
+csv2DF	../tools/pyC45.py	/^from misc import explore, csv2DF$/;"	kind:namespace	line:21
+csv2py	../Utils/AxeUtils/MakeAModel.py	/^  def csv2py(self, filename, duplicate=False):$/;"	kind:member	line:71
+cube.py	../tools/axe/cube.py	1;"	kind:file	line:1
+culled.py	../tools/axe/culled.py	1;"	kind:file	line:1
+dEvol.py	../tools/tune/dEvol.py	1;"	kind:file	line:1
+data	../Utils/AxeUtils/MakeAModel.py	/^  def data(self, indep=[], less=[], more=[], _rows=[]):$/;"	kind:member	line:33
+data	../tools/InfoGain.py	/^    data = DefectData.get_all_projects()["Apache"]$/;"	kind:variable	line:62
+data	../tools/axe/lib.py	/^def data(indep=[], less=[], more=[], _rows=[]):$/;"	kind:function	line:320
+data	../tools/axe/libWhere.py	/^def data(indep=[], less=[], more=[], _rows=[]):$/;"	kind:function	line:328
+de0	../tools/tune/dEvol.py	/^def de0(model, new=[], pop=int(1e4), iter=1000, lives=5, settings=settings):$/;"	kind:function	line:29
+defaults	../tools/axe/settingsWhere.py	/^def defaults(**d):$/;"	kind:function	line:51
+degrade	../tools/axe/dtree.py	/^def degrade(test, tree, opt=The.tree):$/;"	kind:function	line:210
+deltas	../Utils/ExperimentUtils.py	/^def deltas(orig, patched):$/;"	kind:function	line:100
+deltas_count	../Utils/ExperimentUtils.py	/^def deltas_count(columns, changes):$/;"	kind:function	line:112
+deltas_magnitude	../Utils/ExperimentUtils.py	/^def deltas_magnitude(columns, changes):$/;"	kind:function	line:123
+demo	../tools/axe/demos.py	/^def demo(f=None,cache=[]):$/;"	kind:function	line:19
+demoed	../tools/axe/demos.py	/^def demoed(show=1):$/;"	kind:function	line:60
+demos.py	../tools/axe/demos.py	1;"	kind:file	line:1
+depen_var	../tools/InfoGain.py	/^    depen_var = test_data[test_data.columns[-1]]$/;"	kind:variable	line:65
+depopulate	../oracle/smote.py	/^    def depopulate(data):$/;"	kind:function	line:76
+depopulate	../tools/oracle.py	/^  def depopulate(data):$/;"	kind:function	line:76
+different	../Utils/StatsUtils/ScottKnott.py	/^def different(l1, l2):$/;"	kind:function	line:430
+different	../tools/sk.py	/^def different(l1, l2):$/;"	kind:function	line:423
+discreteNums	../tools/axe/table.py	/^def discreteNums(tbl,therows):$/;"	kind:function	line:94
+discreteTable	../tools/axe/table.py	/^def discreteTable(f,contents=lambda x: row(x)):$/;"	kind:function	line:87
+discreteTbl	../tools/Discretize.py	/^def discreteTbl(tbl, B=0.33, Prune=True):$/;"	kind:function	line:132
+discretize	../tools/Discretize.py	/^def discretize(feature, klass, atleast=-1, discrete=False):$/;"	kind:function	line:39
+discretize	../tools/pyC45.py	/^from tools.Discretize import discretize, fWeight$/;"	kind:namespace	line:22
+dist	../Utils/AxeUtils/w2.py	/^def dist(m, i, j,$/;"	kind:function	line:128
+dist	../tools/axe/counts.py	/^  def dist(i,x,y): return 0 if x==y else 1$/;"	kind:member	line:56
+dist	../tools/axe/counts.py	/^  def dist(i,x,y,normalize=True):$/;"	kind:member	line:189
+dist	../tools/axe/cube.py	/^def dist(t,x,y,opt):$/;"	kind:function	line:16
+dist	../tools/axe/where2.py	/^def dist(m,i,j,$/;"	kind:function	line:67
+dist	../tools/containers.py	/^  def dist(i,x,y): return 0 if x==y else 1$/;"	kind:member	line:53
+dist	../tools/containers.py	/^  def dist(i,x,y,normalize=True):$/;"	kind:member	line:113
+dist0	../tools/axe/cube.py	/^def dist0(t,x,y,opt):$/;"	kind:function	line:27
+distings	../tools/axe/settings.py	/^def distings(**d):$/;"	kind:function	line:109
+dists	../tools/axe/cube.py	/^dists={}$/;"	kind:variable	line:15
+divide	../tools/axe/cube.py	/^  def divide(this,small): #Find best divide of 'this'$/;"	kind:function	line:321
+divide	../tools/axe/fi.py	/^  def divide(this,lvl): # Find best divide of 'this' lst.$/;"	kind:function	line:21
+division	../Utils/AxeUtils/MakeAModel.py	/^from __future__ import print_function, division$/;"	kind:namespace	line:1
+division	../Utils/AxeUtils/w2.py	/^from __future__ import division, print_function$/;"	kind:namespace	line:13
+division	../Utils/ExperimentUtils.py	/^from __future__ import print_function, division$/;"	kind:namespace	line:1
+division	../Utils/FileUtil.py	/^from __future__ import print_function, division$/;"	kind:namespace	line:1
+division	../Utils/StatsUtils/ABCD.py	/^from __future__ import division, print_function$/;"	kind:namespace	line:1
+division	../Utils/StatsUtils/CrossVal.py	/^from __future__ import print_function, division$/;"	kind:namespace	line:1
+division	../Utils/StatsUtils/ScottKnott.py	/^from __future__ import division$/;"	kind:namespace	line:11
+division	../commons/FeatureSelection.py	/^from __future__ import print_function, division$/;"	kind:namespace	line:1
+division	../commons/XTREE.py	/^from __future__ import print_function, division$/;"	kind:namespace	line:5
+division	../main.py	/^from __future__ import print_function, division$/;"	kind:namespace	line:5
+division	../oracle/model.py	/^from __future__ import division$/;"	kind:namespace	line:1
+division	../tools/Discretize.py	/^from __future__ import division, print_function$/;"	kind:namespace	line:12
+division	../tools/axe/abcd.py	/^from __future__ import division$/;"	kind:namespace	line:1
+division	../tools/axe/counts.py	/^from __future__ import division$/;"	kind:namespace	line:1
+division	../tools/axe/cube.py	/^from __future__ import division$/;"	kind:namespace	line:1
+division	../tools/axe/demos.py	/^from __future__ import division$/;"	kind:namespace	line:1
+division	../tools/axe/dtree.py	/^from __future__ import division$/;"	kind:namespace	line:1
+division	../tools/axe/fi.py	/^from __future__ import division$/;"	kind:namespace	line:1
+division	../tools/axe/learn.py	/^from __future__ import division$/;"	kind:namespace	line:1
+division	../tools/axe/lib.py	/^from __future__ import division, print_function$/;"	kind:namespace	line:9
+division	../tools/axe/libWhere.py	/^from __future__ import division, print_function$/;"	kind:namespace	line:9
+division	../tools/axe/nasa93.py	/^from __future__ import division,print_function$/;"	kind:namespace	line:8
+division	../tools/axe/table.py	/^from __future__ import division$/;"	kind:namespace	line:1
+division	../tools/axe/where2.py	/^from __future__ import division,print_function$/;"	kind:namespace	line:12
+division	../tools/dtree.py	/^from __future__ import division, print_function$/;"	kind:namespace	line:1
+division	../tools/oracle.py	/^from __future__ import division$/;"	kind:namespace	line:1
+division	../tools/pyC45.py	/^from __future__ import division, print_function$/;"	kind:namespace	line:12
+division	../tools/sk.py	/^from __future__ import division$/;"	kind:namespace	line:11
+division	../tools/stats.py	/^from __future__ import division$/;"	kind:namespace	line:1
+division	../tools/tune/dEvol.py	/^from __future__ import division, print_function$/;"	kind:namespace	line:1
+division	../tools/tune/model.py	/^from __future__ import division, print_function$/;"	kind:namespace	line:1
+division	../tools/where.py	/^from __future__ import division, print_function$/;"	kind:namespace	line:1
+division	../warnplan2.py	/^from __future__ import print_function, division$/;"	kind:namespace	line:5
+doc	../tools/axe/demos.py	/^  def doc(d):$/;"	kind:function	line:20
+drop	../Utils/FileUtil.py	/^def drop(test, tree):$/;"	kind:function	line:85
+dtleaves	../tools/axe/dtree.py	/^def dtleaves(tree):$/;"	kind:function	line:137
+dtnodes	../tools/axe/dtree.py	/^def dtnodes(tree, lvl=0):$/;"	kind:function	line:128
+dtree	../tools/dtree.py	/^from PC45 import dtree$/;"	kind:namespace	line:2
+dtree	../tools/pyC45.py	/^def dtree(tbl, rows=None, lvl=-1, asIs=10 ** 32, up=None, klass=-1, branch=[],$/;"	kind:function	line:25
+dtree.py	../tools/axe/dtree.py	1;"	kind:file	line:1
+dtree.py	../tools/dtree.py	1;"	kind:file	line:1
+dtree2	../tools/pyC45.py	/^def dtree2(tbl, rows=None, lvl=-1, asIs=10 ** 32, up=None, klass=-1, branch=[],$/;"	kind:function	line:93
+e	../tools/axe/config.py	/^          e='f'))$/;"	kind:variable	line:13
+ediv	../tools/axe/fi.py	/^def ediv(lst, lvl=0,tiny=The.tree.min,$/;"	kind:function	line:15
+ent	../tools/Discretize.py	/^        def ent(x):$/;"	kind:function	line:52
+ent	../tools/axe/counts.py	/^  def ent(i) : return i.also().e$/;"	kind:member	line:62
+ent	../tools/containers.py	/^  def ent(i) : return i.also().e$/;"	kind:member	line:59
+ent	../tools/pyC45.py	/^    def ent(x):$/;"	kind:function	line:146
+ent	../tools/pyC45.py	/^    def ent(x):$/;"	kind:function	line:77
+equals	../tools/axe/dtree.py	/^  def equals(val, span):$/;"	kind:function	line:177
+equals	../tools/dtree.py	/^  def equals(val,span):$/;"	kind:function	line:18
+euclidean	../oracle/smote.py	/^from scipy.spatial.distance import euclidean$/;"	kind:namespace	line:7
+euclidean	../tools/oracle.py	/^from scipy.spatial.distance import euclidean$/;"	kind:namespace	line:10
+exp	../Utils/StatsUtils/ScottKnott.py	/^exp = lambda n: math.e ** n$/;"	kind:variable	line:49
+exp	../tools/sk.py	/^exp = lambda n: math.e ** n$/;"	kind:variable	line:51
+expLoss	../tools/tune/dEvol.py	/^    def expLoss(i,x,y,n):$/;"	kind:function	line:37
+explore	../tools/misc.py	/^def explore(dir='..\/data.dat\/Jureczko\/', name=None):$/;"	kind:function	line:33
+explore	../tools/pyC45.py	/^from misc import explore, csv2DF$/;"	kind:namespace	line:21
+extrap	../tools/tune/dEvol.py	/^    def extrap(i,a,x,y,z):$/;"	kind:function	line:62
+extrapolate	../oracle/smote.py	/^    def extrapolate(one, two):$/;"	kind:function	line:36
+extrapolate	../tools/oracle.py	/^  def extrapolate(one, two):$/;"	kind:function	line:37
+extrapolate	../tools/tune/dEvol.py	/^  def extrapolate(current, l1, l2, l3):$/;"	kind:function	line:61
+f	../tools/axe/settingsWhere.py	/^    def f(i):$/;"	kind:member	line:43
+f	../tools/tune/dEvol.py	/^  f=0.5$/;"	kind:variable	line:11
+f1	../Utils/StatsUtils/ScottKnott.py	/^    def f1(): return a12slow(l1, l2)$/;"	kind:function	line:241
+f1	../tools/sk.py	/^  def f1():$/;"	kind:function	line:240
+f2	../Utils/StatsUtils/ScottKnott.py	/^    def f2(): return a12(l1, l2)$/;"	kind:function	line:243
+f2	../tools/sk.py	/^  def f2():$/;"	kind:function	line:243
+fWeight	../tools/Discretize.py	/^def fWeight(tbl):$/;"	kind:function	line:23
+fWeight	../tools/pyC45.py	/^from tools.Discretize import discretize, fWeight$/;"	kind:namespace	line:22
+far	../tools/axe/counts.py	/^  def far(i,x): return '~!@#$%^&*'$/;"	kind:member	line:57
+far	../tools/axe/counts.py	/^  def far(i,x):$/;"	kind:member	line:195
+far	../tools/containers.py	/^  def far(i,x): return '~!@#$%^&*'$/;"	kind:member	line:54
+far	../tools/containers.py	/^  def far(i,x):$/;"	kind:member	line:119
+farthest	../tools/where.py	/^  def farthest(one,rest):$/;"	kind:function	line:26
+fastmap	../Utils/AxeUtils/w2.py	/^def fastmap(m, data):$/;"	kind:function	line:78
+fastmap	../tools/axe/where2.py	/^def fastmap(m,data):$/;"	kind:function	line:26
+fi.py	../tools/axe/fi.py	1;"	kind:file	line:1
+find	../commons/XTREE.py	/^    def find(i, testInst, t):$/;"	kind:member	line:49
+first	../tools/axe/lib.py	/^def first(lst):$/;"	kind:function	line:144
+first	../tools/axe/libWhere.py	/^def first(lst): return lst[0]$/;"	kind:function	line:144
+flatten	../Utils/MiscUtils.py	/^def flatten(x):$/;"	kind:function	line:1
+flatten	../commons/XTREE.py	/^from Utils.MiscUtils import flatten$/;"	kind:namespace	line:19
+flatten	../tools/tune/dEvol.py	/^def flatten(x):$/;"	kind:function	line:16
+fromHell	../tools/axe/cube.py	/^def fromHell(tbl,row,opt):$/;"	kind:function	line:275
+fromHells	../tools/axe/cube.py	/^def fromHells(tbl,rows,opt):$/;"	kind:function	line:268
+furthest	../Utils/AxeUtils/w2.py	/^def furthest(m, i, all,$/;"	kind:function	line:162
+furthest	../tools/axe/cube.py	/^def furthest(t,x,opt):$/;"	kind:function	line:52
+furthest	../tools/axe/where2.py	/^def furthest(m,i,all,$/;"	kind:function	line:92
+furthests	../tools/axe/cube.py	/^def furthests(t,b4,opt):$/;"	kind:function	line:43
+g	../Utils/StatsUtils/ScottKnott.py	/^        def g(mu, sigma): return random.gauss(mu, sigma)$/;"	kind:function	line:384
+g	../Utils/StatsUtils/ScottKnott.py	/^g = lambda n: round(n, 2)$/;"	kind:variable	line:51
+g	../tools/axe/config.py	/^          g=dict(aa=23,bb=23),$/;"	kind:variable	line:12
+g	../tools/axe/lib.py	/^def g(x):$/;"	kind:function	line:176
+g	../tools/axe/libWhere.py	/^def g(x):$/;"	kind:function	line:175
+g	../tools/sk.py	/^    def g(mu, sigma):$/;"	kind:function	line:380
+g	../tools/sk.py	/^g = lambda n: round(n, 2)$/;"	kind:variable	line:53
+generate	../tools/tune/model.py	/^  def generate(i,n):$/;"	kind:member	line:37
+getTunings	../oracle/model.py	/^def getTunings(fname):$/;"	kind:function	line:18
+get_all_projects	../data/GetData.py	/^def get_all_projects():$/;"	kind:function	line:19
+get_all_projects	../main.py	/^from data.GetData import get_all_projects$/;"	kind:namespace	line:17
+get_all_projects	../warnplan2.py	/^from data.GetData import get_all_projects$/;"	kind:namespace	line:17
+get_data_details	../main.py	/^def get_data_details():$/;"	kind:function	line:78
+glob	../data/GetData.py	/^from glob import glob$/;"	kind:namespace	line:4
+go	../tools/axe/cube.py	/^  def go(lst,cohen=0.3,$/;"	kind:function	line:354
+go	../tools/axe/fi.py	/^  def go(lst):$/;"	kind:function	line:63
+go	../tools/axe/lib.py	/^def go(f):$/;"	kind:function	line:203
+go	../tools/axe/libWhere.py	/^def go(f):$/;"	kind:function	line:207
+gs	../tools/axe/lib.py	/^def gs(lst):$/;"	kind:function	line:172
+gs	../tools/axe/libWhere.py	/^def gs(lst): return [g(x) for x in lst]$/;"	kind:function	line:172
+gt	../Utils/AxeUtils/w2.py	/^def gt(x, y):$/;"	kind:function	line:102
+gt	../tools/axe/lib.py	/^def gt(x, y):$/;"	kind:function	line:24
+gt	../tools/axe/libWhere.py	/^def gt(x, y): return x > y$/;"	kind:function	line:26
+gt	../tools/axe/where2.py	/^def gt(x,y): return x > y$/;"	kind:function	line:48
+has	../tools/axe/lib.py	/^  def has(i):$/;"	kind:member	line:110
+has	../tools/axe/libWhere.py	/^    def has(i):$/;"	kind:member	line:109
+has	../tools/axe/settingsWhere.py	/^    def has(i): return i.__dict__$/;"	kind:member	line:21
+head	../tools/axe/table.py	/^def head(cells,t,numc=The.reader.numc):$/;"	kind:function	line:55
+header	../tools/axe/abcd.py	/^  def header(i):$/;"	kind:member	line:48
+hedges	../tools/axe/counts.py	/^  def hedges(i,j,small=The.math.brink.hedges):$/;"	kind:member	line:210
+help	../tools/axe/args.py	/^                   help='an integer for the accumulator')$/;"	kind:variable	line:5
+help	../tools/axe/args.py	/^                   help='sum the integers (default: find the max)')$/;"	kind:variable	line:8
+howfar	../commons/XTREE.py	/^    def howfar(me, other):$/;"	kind:member	line:68
+id	../tools/axe/counts.py	/^  id = -1$/;"	kind:variable	line:29
+id	../tools/axe/settings.py	/^  id = -1$/;"	kind:variable	line:7
+id	../tools/containers.py	/^  id = -1$/;"	kind:variable	line:5
+idea	../tools/axe/cube.py	/^def idea(tbl,rows=None,opt=distings(),up=None,lvl=0):$/;"	kind:function	line:220
+idea1	../tools/axe/cube.py	/^def idea1(t,rows=None,opt=distings(),up=None,lvl=0):$/;"	kind:function	line:223
+idea2	../tools/axe/cube.py	/^def idea2(     t,here,rows,west,c,east,opt,lvl):$/;"	kind:function	line:230
+ideaed	../tools/axe/cube.py	/^def ideaed(f='data.dat\/nasa93.csv'):$/;"	kind:function	line:376
+impact	../Utils/ExperimentUtils.py	/^def impact(test, pred):$/;"	kind:function	line:49
+improve	../tools/axe/dtree.py	/^def improve(test, tree, opt=The.tree):$/;"	kind:function	line:206
+inc	../tools/axe/counts.py	/^  def inc(i,x,n=1):$/;"	kind:member	line:51
+inc	../tools/containers.py	/^  def inc(i,x,n=1):$/;"	kind:member	line:48
+indep_var	../tools/InfoGain.py	/^    indep_var = test_data[test_data.columns[:-1]]$/;"	kind:variable	line:64
+infogain	../tools/axe/dtree.py	/^def infogain(t, opt=The.tree):$/;"	kind:function	line:40
+information_gain	../tools/InfoGain.py	/^def information_gain(X, y):$/;"	kind:function	line:6
+interpolate	../tools/axe/counts.py	/^  def interpolate(x, points):$/;"	kind:function	line:235
+iqr	../tools/axe/counts.py	/^  def iqr(i)   : return i.also().iqr$/;"	kind:member	line:100
+iqr	../tools/axe/counts.py	/^  def iqr(i): return i.some.iqr()$/;"	kind:member	line:171
+iqr	../tools/containers.py	/^  def iqr(i): return i.some.iqr()$/;"	kind:member	line:96
+islice	../Utils/StatsUtils/CrossVal.py	/^from itertools import islice$/;"	kind:namespace	line:9
+iter	../tools/tune/dEvol.py	/^  iter=50$/;"	kind:variable	line:9
+jump	../tools/axe/dtree.py	/^def jump(test, tree, how, opt=The.tree):$/;"	kind:function	line:233
+jumpDown	../tools/axe/dtree.py	/^def jumpDown(test, tree, opt=The.tree):$/;"	kind:function	line:229
+jumpUp	../tools/axe/dtree.py	/^def jumpUp(test, tree, opt=The.tree):$/;"	kind:function	line:225
+k	../tools/axe/counts.py	/^  def k(i)   : return len(i.counts.keys())$/;"	kind:member	line:58
+k	../tools/containers.py	/^  def k(i)   : return len(i.counts.keys())$/;"	kind:member	line:55
+ke	../tools/axe/fi.py	/^    def ke(z): return z.k()*z.ent()$/;"	kind:function	line:22
+kfn	../oracle/smote.py	/^    def kfn(me, my_lot, others):$/;"	kind:function	line:31
+kfn	../tools/oracle.py	/^  def kfn(me,my_lot,others):$/;"	kind:function	line:32
+klass	../tools/axe/dtree.py	/^  def klass(test):$/;"	kind:function	line:311
+klass	../tools/axe/dtree.py	/^  def klass(x):$/;"	kind:function	line:250
+klass	../tools/axe/dtree.py	/^  def klass(x):$/;"	kind:function	line:341
+knn	../oracle/smote.py	/^    def knn(a, b):$/;"	kind:function	line:21
+knn	../tools/oracle.py	/^  def knn(a,b):$/;"	kind:function	line:22
+knowns	../tools/axe/abcd.py	/^  def knowns(i, x):$/;"	kind:member	line:41
+l2t	../tools/axe/dtree.py	/^  def l2t(l):$/;"	kind:function	line:253
+last	../tools/axe/dtree.py	/^def last(lst):$/;"	kind:function	line:170
+learn.py	../tools/axe/learn.py	1;"	kind:file	line:1
+learns	../tools/axe/learn.py	/^def learns(tests,trains,indep=lambda x: x[:-1],$/;"	kind:function	line:21
+leaves	../Utils/AxeUtils/w2.py	/^def leaves(tree, seen=None, steps=0):$/;"	kind:function	line:404
+leaves	../Utils/FileUtil.py	/^from AxeUtils.w2 import where2, prepare, leaves$/;"	kind:namespace	line:14
+leaves	../commons/XTREE.py	/^    def leaves(i, node):$/;"	kind:member	line:35
+leaves	../tools/axe/cube.py	/^def leaves(t):$/;"	kind:function	line:83
+leaves	../tools/axe/where2.py	/^def leaves(tree,seen=None,steps=0):$/;"	kind:function	line:298
+leaves	../tools/pyC45.py	/^def leaves(tree):$/;"	kind:function	line:190
+leftRight	../Utils/StatsUtils/ScottKnott.py	/^def leftRight(parts, epsilon=0.01):$/;"	kind:function	line:532
+leftRight	../tools/sk.py	/^def leftRight(parts, epsilon=0.01):$/;"	kind:function	line:523
+lib	../tools/axe/settings.py	/^  import lib$/;"	kind:namespace	line:128
+lib.py	../tools/axe/lib.py	1;"	kind:file	line:1
+libWhere.py	../tools/axe/libWhere.py	1;"	kind:file	line:1
+linear_model	../tools/axe/learn.py	/^from sklearn import linear_model$/;"	kind:namespace	line:5
+list2dataframe	../Utils/FileUtil.py	/^def list2dataframe(lst):$/;"	kind:function	line:27
+list2dataframe	../commons/XTREE.py	/^from Utils.FileUtil import list2dataframe$/;"	kind:namespace	line:21
+list2dataframe	../main.py	/^from Utils.FileUtil import list2dataframe$/;"	kind:namespace	line:18
+list2dataframe	../oracle/model.py	/^from Utils.FileUtil import list2dataframe$/;"	kind:namespace	line:8
+list2dataframe	../tools/InfoGain.py	/^from Utils.FileUtil import list2dataframe$/;"	kind:namespace	line:4
+list2dataframe	../warnplan2.py	/^from Utils.FileUtil import list2dataframe$/;"	kind:namespace	line:18
+lives	../tools/tune/dEvol.py	/^  lives=10$/;"	kind:variable	line:14
+ln	../Utils/StatsUtils/ScottKnott.py	/^ln = lambda n: math.log(n, math.e)$/;"	kind:variable	line:50
+ln	../tools/sk.py	/^ln = lambda n: math.log(n, math.e)$/;"	kind:variable	line:52
+log2	../tools/axe/counts.py	/^from numpy import log2$/;"	kind:namespace	line:6
+log2	../tools/containers.py	/^from numpy import log2$/;"	kind:namespace	line:1
+loo	../tools/axe/cube.py	/^def loo(tbl1,some=None):$/;"	kind:function	line:91
+loop	../Utils/StatsUtils/ScottKnott.py	/^    def loop(t, t1, t2):$/;"	kind:function	line:211
+loop	../tools/axe/counts.py	/^  def loop(t,t1,t2): $/;"	kind:function	line:313
+loop	../tools/sk.py	/^  def loop(t, t1, t2):$/;"	kind:function	line:211
+loos	../tools/axe/cube.py	/^def loos(tbl,opt):$/;"	kind:function	line:155
+loos1	../tools/axe/cube.py	/^def loos1(train,test,opt,score): $/;"	kind:function	line:187
+loosMoea	../tools/axe/cube.py	/^def loosMoea(tbl,opt):$/;"	kind:function	line:167
+loosed	../tools/axe/cube.py	/^def loosed(f='data.dat\/nasa93.csv'):$/;"	kind:function	line:432
+loss	../tools/tune/dEvol.py	/^    def loss(x, y):$/;"	kind:function	line:40
+loss1	../tools/tune/dEvol.py	/^    def loss1(i,x,y):$/;"	kind:function	line:34
+lt	../Utils/AxeUtils/w2.py	/^def lt(x, y):$/;"	kind:function	line:106
+lt	../tools/axe/lib.py	/^def lt(x, y):$/;"	kind:function	line:28
+lt	../tools/axe/libWhere.py	/^def lt(x, y): return x < y$/;"	kind:function	line:29
+lt	../tools/axe/where2.py	/^def lt(x,y): return x < y$/;"	kind:function	line:49
+main	../commons/XTREE.py	/^    def main(i):$/;"	kind:member	line:113
+main.py	../main.py	1;"	kind:file	line:1
+math	../Utils/StatsUtils/ScottKnott.py	/^import sys, random, math$/;"	kind:namespace	line:12
+math	../tools/axe/lib.py	/^import math$/;"	kind:namespace	line:12
+math	../tools/containers.py	/^def math():$/;"	kind:function	line:15
+math	../tools/sk.py	/^import math$/;"	kind:namespace	line:14
+mathings	../tools/axe/settings.py	/^def mathings():$/;"	kind:function	line:47
+matplotlib	../tools/axe/dtree.py	/^  import matplotlib.mlab as mlab$/;"	kind:namespace	line:389
+matplotlib	../tools/axe/dtree.py	/^  import matplotlib.pyplot as plt$/;"	kind:namespace	line:390
+maxIter	../tools/tune/dEvol.py	/^  maxIter=100$/;"	kind:variable	line:13
+maybeIgnore	../Utils/StatsUtils/ScottKnott.py	/^def maybeIgnore((cut, left, right), same, parts):$/;"	kind:function	line:506
+maybeIgnore	../tools/sk.py	/^def maybeIgnore(xxx_todo_changeme, same, parts):$/;"	kind:function	line:496
+maybePrune	../Utils/AxeUtils/w2.py	/^def maybePrune(m, lvl, west, east):$/;"	kind:function	line:310
+maybePrune	../tools/axe/where2.py	/^def maybePrune(m,lvl,west,east):$/;"	kind:function	line:220
+measure	../tools/Discretize.py	/^    def measure(x):$/;"	kind:function	line:51
+median	../Utils/StatsUtils/ScottKnott.py	/^    def median(i):$/;"	kind:member	line:167
+median	../Utils/StatsUtils/ScottKnott.py	/^def median(lst, ordered=False):$/;"	kind:function	line:54
+median	../tools/axe/counts.py	/^  def median(i) : return i.also().median$/;"	kind:member	line:99
+median	../tools/axe/counts.py	/^  def median(i): return i.some.median()$/;"	kind:member	line:170
+median	../tools/axe/lib.py	/^def median(lst, ordered=False):$/;"	kind:function	line:45
+median	../tools/axe/libWhere.py	/^def median(lst, ordered=False):$/;"	kind:function	line:45
+median	../tools/containers.py	/^  def median(i): return i.some.median()$/;"	kind:member	line:95
+median	../tools/sk.py	/^  def median(i):$/;"	kind:member	line:168
+median	../tools/sk.py	/^def median(lst, ordered=False):$/;"	kind:function	line:56
+medianIQR	../tools/axe/lib.py	/^def medianIQR(lst, ordered=False):$/;"	kind:function	line:32
+medianIQR	../tools/axe/libWhere.py	/^def medianIQR(lst, ordered=False):$/;"	kind:function	line:32
+minMu	../Utils/StatsUtils/ScottKnott.py	/^def minMu(parts, all, big, epsilon):$/;"	kind:function	line:514
+minMu	../tools/sk.py	/^def minMu(parts, all, big, epsilon):$/;"	kind:function	line:505
+misc.py	../tools/misc.py	1;"	kind:file	line:1
+mlab	../tools/axe/dtree.py	/^  import matplotlib.mlab as mlab$/;"	kind:namespace	line:389
+mode	../tools/axe/counts.py	/^  def mode(i): return i.also().mode$/;"	kind:member	line:61
+mode	../tools/containers.py	/^  def mode(i): return i.also().mode$/;"	kind:member	line:58
+model.py	../oracle/model.py	1;"	kind:file	line:1
+model.py	../tools/tune/model.py	1;"	kind:file	line:1
+modes	../tools/axe/dtree.py	/^def modes(n):$/;"	kind:function	line:90
+moea	../tools/axe/cube.py	/^def moea(f='data.dat\/coc81dem.csv'):$/;"	kind:function	line:446
+most	../tools/axe/counts.py	/^  def most(i): return i.also().most$/;"	kind:member	line:60
+most	../tools/containers.py	/^  def most(i): return i.also().most$/;"	kind:member	line:57
+mostDistant	../tools/axe/cube.py	/^def mostDistant(t,rows,opt):$/;"	kind:function	line:69
+msecs	../Utils/StatsUtils/ScottKnott.py	/^def msecs(f):$/;"	kind:function	line:64
+msecs	../tools/sk.py	/^def msecs(f):$/;"	kind:function	line:68
+n	../tools/axe/abcd.py	/^    def n(y):$/;"	kind:function	line:62
+n	../tools/axe/counts.py	/^  def n(i): return i.some.n$/;"	kind:member	line:164
+n	../tools/containers.py	/^  def n(i): return i.some.n$/;"	kind:member	line:89
+nasa93	../Utils/AxeUtils/w2.py	/^    from tools.axe import nasa93$/;"	kind:namespace	line:27
+nasa93	../tools/axe/nasa93.py	/^def nasa93():$/;"	kind:function	line:17
+nasa93.py	../tools/axe/nasa93.py	1;"	kind:file	line:1
+nearest1	../tools/axe/cube.py	/^def nearest1(ds):$/;"	kind:function	line:99
+nearest2	../tools/axe/cube.py	/^def nearest2(ds):$/;"	kind:function	line:102
+neighbors	../Utils/AxeUtils/w2.py	/^def neighbors(leaf, seen=None, steps=-1):$/;"	kind:function	line:420
+neighbors	../tools/axe/where2.py	/^def neighbors(leaf,seen=None,steps=-1):$/;"	kind:function	line:307
+new	../commons/XTREE.py	/^        def new(old, range):$/;"	kind:function	line:94
+newId	../tools/axe/counts.py	/^  def newId(i):$/;"	kind:member	line:33
+newId	../tools/axe/settings.py	/^  def newId(i):$/;"	kind:member	line:13
+newId	../tools/containers.py	/^  def newId(i):$/;"	kind:member	line:9
+new_table	../Utils/FileUtil.py	/^def new_table(tbl, headerLabel, Rows):$/;"	kind:function	line:18
+ninf	../tools/axe/dtree.py	/^ninf = float("-inf")$/;"	kind:variable	line:336
+nl	../tools/axe/dtree.py	/^def nl():$/;"	kind:function	line:15
+nmodes	../tools/axe/dtree.py	/^def nmodes(n):$/;"	kind:function	line:99
+nodes	../Utils/AxeUtils/w2.py	/^def nodes(tree, seen=None, steps=0):$/;"	kind:function	line:385
+nodes	../tools/axe/where2.py	/^def nodes(tree,seen=None,steps=0):$/;"	kind:function	line:284
+nodes	../tools/pyC45.py	/^def nodes(tree, lvl=0):$/;"	kind:function	line:181
+norm	../Utils/AxeUtils/w2.py	/^def norm(m, c, val):$/;"	kind:function	line:149
+norm	../tools/axe/counts.py	/^  def norm(i,x): $/;"	kind:member	line:193
+norm	../tools/axe/counts.py	/^  def norm(i,x): return x$/;"	kind:member	line:55
+norm	../tools/axe/dtree.py	/^  def norm(x):$/;"	kind:function	line:41
+norm	../tools/axe/where2.py	/^def norm(m,c,val) : $/;"	kind:function	line:84
+norm	../tools/containers.py	/^  def norm(i,x): return x$/;"	kind:member	line:52
+norm	../tools/containers.py	/^  def norm(i,x):$/;"	kind:member	line:117
+np	../Utils/ExperimentUtils.py	/^import numpy as np$/;"	kind:namespace	line:16
+np	../Utils/StatsUtils/ABCD.py	/^import numpy as np$/;"	kind:namespace	line:3
+np	../main.py	/^import numpy as np$/;"	kind:namespace	line:16
+np	../oracle/smote.py	/^import numpy as np$/;"	kind:namespace	line:5
+np	../tools/Discretize.py	/^import numpy as np$/;"	kind:namespace	line:15
+np	../tools/InfoGain.py	/^import numpy as np$/;"	kind:namespace	line:1
+np	../tools/axe/dtree.py	/^import numpy as np$/;"	kind:namespace	line:10
+np	../tools/dtree.py	/^import numpy as np$/;"	kind:namespace	line:4
+np	../tools/misc.py	/^import numpy as np$/;"	kind:namespace	line:3
+np	../tools/pyC45.py	/^import numpy as np$/;"	kind:namespace	line:17
+np	../tools/tune/dEvol.py	/^import numpy as np$/;"	kind:namespace	line:3
+np	../tools/where.py	/^import numpy as np$/;"	kind:namespace	line:4
+np	../warnplan2.py	/^import numpy as np$/;"	kind:namespace	line:16
+numed	../tools/axe/counts.py	/^def numed():$/;"	kind:function	line:250
+o	../Utils/AxeUtils/MakeAModel.py	/^class o:$/;"	kind:class	line:16
+o	../Utils/StatsUtils/ScottKnott.py	/^class o():$/;"	kind:class	line:22
+o	../tools/axe/settingsWhere.py	/^class o:$/;"	kind:class	line:18
+o	../tools/sk.py	/^class o():$/;"	kind:class	line:24
+ok	../tools/axe/table.py	/^  def ok(x):$/;"	kind:function	line:107
+one	../Utils/StatsUtils/ScottKnott.py	/^    def one(lst): return lst[int(any(len(lst)))]$/;"	kind:function	line:291
+one	../tools/axe/counts.py	/^  def one(lst): return lst[ int(any(len(lst))) ]$/;"	kind:function	line:290
+one	../tools/axe/lib.py	/^  def one(k, v):$/;"	kind:function	line:187
+one	../tools/axe/libWhere.py	/^    def one(k, v):$/;"	kind:function	line:188
+one	../tools/sk.py	/^  def one(lst):$/;"	kind:function	line:291
+one234	../tools/tune/dEvol.py	/^  def one234(one, pop):$/;"	kind:function	line:69
+oneTwo	../tools/axe/lib.py	/^  def oneTwo(lst):$/;"	kind:function	line:238
+oneTwo	../tools/axe/libWhere.py	/^    def oneTwo(lst):$/;"	kind:function	line:242
+oracle.py	../tools/oracle.py	1;"	kind:file	line:1
+os	../Utils/AxeUtils/MakeAModel.py	/^import os$/;"	kind:namespace	line:3
+os	../Utils/AxeUtils/w2.py	/^import os$/;"	kind:namespace	line:15
+os	../Utils/ExperimentUtils.py	/^import os$/;"	kind:namespace	line:3
+os	../Utils/FileUtil.py	/^import os$/;"	kind:namespace	line:3
+os	../commons/XTREE.py	/^import os$/;"	kind:namespace	line:7
+os	../data/GetData.py	/^import os$/;"	kind:namespace	line:1
+os	../main.py	/^import os$/;"	kind:namespace	line:7
+os	../oracle/model.py	/^import os$/;"	kind:namespace	line:3
+os	../warnplan2.py	/^import os$/;"	kind:namespace	line:7
+overlaps	../Utils/ExperimentUtils.py	/^def overlaps(new, validation):$/;"	kind:function	line:18
+override	../Utils/StatsUtils/ScottKnott.py	/^    def override(i, d): i.__dict__.update(d); return i$/;"	kind:member	line:28
+override	../tools/axe/counts.py	/^  def override(i,d): i.__dict__.update(d); return i$/;"	kind:member	line:36
+override	../tools/axe/settings.py	/^  def override(i, d):$/;"	kind:member	line:19
+override	../tools/containers.py	/^  def override(i,d): i.__dict__.update(d); return i$/;"	kind:member	line:12
+override	../tools/sk.py	/^  def override(i, d):$/;"	kind:member	line:30
+p	../Utils/StatsUtils/ScottKnott.py	/^        def p(x): return g(xs[x])$/;"	kind:function	line:160
+p	../tools/axe/abcd.py	/^    def p(y):$/;"	kind:function	line:59
+p	../tools/sk.py	/^    def p(x):$/;"	kind:function	line:161
+pairs	../Utils/AxeUtils/w2.py	/^def pairs(lst):$/;"	kind:function	line:46
+pairs	../Utils/StatsUtils/ScottKnott.py	/^def pairs(lst):$/;"	kind:function	line:71
+pairs	../tools/Discretize.py	/^        def pairs(lst):$/;"	kind:function	line:157
+pairs	../tools/pyC45.py	/^    def pairs(lst):$/;"	kind:function	line:125
+pairs	../tools/pyC45.py	/^    def pairs(lst):$/;"	kind:function	line:54
+pairs	../tools/sk.py	/^def pairs(lst):$/;"	kind:function	line:75
+parser	../tools/axe/args.py	/^parser = argparse.ArgumentParser(description='Process some integers.')$/;"	kind:variable	line:3
+patchIt	../commons/XTREE.py	/^    def patchIt(i, testInst, config=False):$/;"	kind:member	line:72
+pd	../Utils/ExperimentUtils.py	/^import pandas as pd$/;"	kind:namespace	line:11
+pd	../Utils/StatsUtils/CrossVal.py	/^import pandas as pd$/;"	kind:namespace	line:5
+pd	../commons/XTREE.py	/^import pandas as pd$/;"	kind:namespace	line:15
+pd	../main.py	/^    import pandas as pd$/;"	kind:namespace	line:79
+pd	../oracle/model.py	/^import pandas as pd$/;"	kind:namespace	line:6
+pd	../oracle/smote.py	/^import pandas as pd$/;"	kind:namespace	line:6
+pd	../tools/Discretize.py	/^import pandas as pd$/;"	kind:namespace	line:16
+pd	../tools/dtree.py	/^import pandas as pd$/;"	kind:namespace	line:3
+pd	../tools/oracle.py	/^import pandas as pd$/;"	kind:namespace	line:9
+pd	../tools/pyC45.py	/^import pandas as pd$/;"	kind:namespace	line:18
+pd	../tools/where.py	/^import pandas as pd$/;"	kind:namespace	line:3
+place	../Utils/StatsUtils/ScottKnott.py	/^    def place(x):$/;"	kind:function	line:94
+place	../tools/sk.py	/^  def place(x):$/;"	kind:function	line:97
+planning	../main.py	/^def planning():$/;"	kind:function	line:26
+planning	../warnplan2.py	/^def planning():$/;"	kind:function	line:27
+plot	../tools/axe/dtree.py	/^def plot(x, y, title, xlabel, ylabel, fname):$/;"	kind:function	line:388
+plt	../tools/axe/dtree.py	/^  import matplotlib.pyplot as plt$/;"	kind:namespace	line:390
+populate	../oracle/smote.py	/^    def populate(data, atleast):$/;"	kind:function	line:46
+populate	../tools/oracle.py	/^  def populate(data, atleast):$/;"	kind:function	line:45
+populate2	../oracle/smote.py	/^    def populate2(data1, data2):$/;"	kind:function	line:64
+populate2	../tools/oracle.py	/^  def populate2(data1, data2):$/;"	kind:function	line:64
+pos	../Utils/StatsUtils/ScottKnott.py	/^    def pos(p):$/;"	kind:function	line:91
+pos	../tools/sk.py	/^  def pos(p):$/;"	kind:function	line:94
+pred_stats	../Utils/ExperimentUtils.py	/^def pred_stats(before, after, distr):$/;"	kind:function	line:55
+prepare	../Utils/AxeUtils/w2.py	/^def prepare(m, settings=None):$/;"	kind:function	line:508
+prepare	../Utils/FileUtil.py	/^from AxeUtils.w2 import where2, prepare, leaves$/;"	kind:namespace	line:14
+pretty	../Utils/StatsUtils/ScottKnott.py	/^    def pretty(lst):$/;"	kind:function	line:97
+pretty	../tools/sk.py	/^  def pretty(lst):$/;"	kind:function	line:100
+print_function	../Utils/AxeUtils/MakeAModel.py	/^from __future__ import print_function, division$/;"	kind:namespace	line:1
+print_function	../Utils/AxeUtils/w2.py	/^from __future__ import division, print_function$/;"	kind:namespace	line:13
+print_function	../Utils/ExperimentUtils.py	/^from __future__ import print_function, division$/;"	kind:namespace	line:1
+print_function	../Utils/FileUtil.py	/^from __future__ import print_function, division$/;"	kind:namespace	line:1
+print_function	../Utils/StatsUtils/ABCD.py	/^from __future__ import division, print_function$/;"	kind:namespace	line:1
+print_function	../Utils/StatsUtils/CrossVal.py	/^from __future__ import print_function, division$/;"	kind:namespace	line:1
+print_function	../commons/FeatureSelection.py	/^from __future__ import print_function, division$/;"	kind:namespace	line:1
+print_function	../commons/XTREE.py	/^from __future__ import print_function, division$/;"	kind:namespace	line:5
+print_function	../main.py	/^from __future__ import print_function, division$/;"	kind:namespace	line:5
+print_function	../tools/Discretize.py	/^from __future__ import division, print_function$/;"	kind:namespace	line:12
+print_function	../tools/axe/lib.py	/^from __future__ import division, print_function$/;"	kind:namespace	line:9
+print_function	../tools/axe/libWhere.py	/^from __future__ import division, print_function$/;"	kind:namespace	line:9
+print_function	../tools/axe/nasa93.py	/^from __future__ import division,print_function$/;"	kind:namespace	line:8
+print_function	../tools/axe/where2.py	/^from __future__ import division,print_function$/;"	kind:namespace	line:12
+print_function	../tools/dtree.py	/^from __future__ import division, print_function$/;"	kind:namespace	line:1
+print_function	../tools/pyC45.py	/^from __future__ import division, print_function$/;"	kind:namespace	line:12
+print_function	../tools/tune/dEvol.py	/^from __future__ import division, print_function$/;"	kind:namespace	line:1
+print_function	../tools/tune/model.py	/^from __future__ import division, print_function$/;"	kind:namespace	line:1
+print_function	../tools/where.py	/^from __future__ import division, print_function$/;"	kind:namespace	line:1
+print_function	../warnplan2.py	/^from __future__ import print_function, division$/;"	kind:namespace	line:5
+print_stats	../Utils/StatsUtils/ABCD.py	/^def print_stats(actual, predicted, name="name", header=False):$/;"	kind:function	line:74
+problem	../tools/tune/model.py	/^  problem = DTLZ2(30,3)$/;"	kind:variable	line:68
+proj	../tools/where.py	/^    def proj(test):$/;"	kind:function	line:37
+prune	../tools/axe/dtree.py	/^def prune(n):$/;"	kind:function	line:103
+push	../tools/axe/counts.py	/^  def push(x,n=0.2):$/;"	kind:function	line:251
+put	../Utils/StatsUtils/ScottKnott.py	/^        def put(i, x):$/;"	kind:member	line:352
+put	../tools/sk.py	/^    def put(i, x):$/;"	kind:member	line:350
+pyC45	../commons/XTREE.py	/^from tools import pyC45$/;"	kind:namespace	line:16
+pyC45.py	../tools/pyC45.py	1;"	kind:file	line:1
+quartiles	../Utils/StatsUtils/ScottKnott.py	/^    def quartiles(i):$/;"	kind:member	line:159
+quartiles	../tools/sk.py	/^  def quartiles(i):$/;"	kind:member	line:160
+rand	../Utils/StatsUtils/ScottKnott.py	/^rand = random.random$/;"	kind:variable	line:46
+rand	../commons/XTREE.py	/^from random import uniform, random as rand$/;"	kind:namespace	line:22
+rand	../oracle/smote.py	/^from random import choice, uniform as rand$/;"	kind:namespace	line:3
+rand	../tools/axe/lib.py	/^rand = random.random$/;"	kind:variable	line:126
+rand	../tools/axe/libWhere.py	/^rand = random.random$/;"	kind:variable	line:127
+rand	../tools/oracle.py	/^from random import choice, uniform as rand$/;"	kind:namespace	line:6
+rand	../tools/sk.py	/^rand = random.random$/;"	kind:variable	line:48
+randi	../tools/where.py	/^from random import randint as randi, seed as rseed$/;"	kind:namespace	line:6
+random	../Utils/ExperimentUtils.py	/^from random import uniform as random$/;"	kind:namespace	line:14
+random	../Utils/StatsUtils/ScottKnott.py	/^    import random$/;"	kind:namespace	line:116
+random	../Utils/StatsUtils/ScottKnott.py	/^import sys, random, math$/;"	kind:namespace	line:12
+random	../tools/axe/cube.py	/^  import random$/;"	kind:namespace	line:351
+random	../tools/axe/fi.py	/^  import random$/;"	kind:namespace	line:60
+random	../tools/axe/lib.py	/^import random$/;"	kind:namespace	line:11
+random	../tools/axe/libWhere.py	/^import random$/;"	kind:namespace	line:11
+random	../tools/axe/where2.py	/^  import random$/;"	kind:namespace	line:28
+random	../tools/sk.py	/^  import random$/;"	kind:namespace	line:118
+random	../tools/sk.py	/^import random$/;"	kind:namespace	line:13
+random	../tools/tune/dEvol.py	/^import random$/;"	kind:namespace	line:4
+ranked	../tools/axe/dtree.py	/^  def ranked(f):$/;"	kind:function	line:23
+rankedFeatures	../tools/axe/dtree.py	/^def rankedFeatures(rows, t, features=None):$/;"	kind:function	line:19
+rdiv	../Utils/StatsUtils/ScottKnott.py	/^def rdiv(data,  # a list of class Nums$/;"	kind:function	line:477
+rdiv	../tools/sk.py	/^def rdiv(data,  # a list of class Nums$/;"	kind:function	line:469
+rdivDemo	../tools/sk.py	/^def rdivDemo(data, isLatex=False, globalMinMax=False, high=100, low=0):$/;"	kind:function	line:552
+re	../tools/axe/table.py	/^import re  $/;"	kind:namespace	line:6
+read_csv	../Utils/FileUtil.py	/^from pandas import read_csv, concat$/;"	kind:namespace	line:12
+read_csv	../tools/misc.py	/^from pandas import DataFrame, read_csv, concat$/;"	kind:namespace	line:1
+readerings	../tools/axe/settings.py	/^def readerings():$/;"	kind:function	line:73
+recurse	../Utils/StatsUtils/ScottKnott.py	/^    def recurse(parts, all, rank=0):$/;"	kind:function	line:488
+recurse	../tools/axe/cube.py	/^  def recurse(this, small,cuts):$/;"	kind:function	line:334
+recurse	../tools/axe/fi.py	/^  def recurse(this, cuts,lvl):$/;"	kind:function	line:42
+recurse	../tools/sk.py	/^  def recurse(parts, all, rank=0):$/;"	kind:function	line:479
+recurse	../tools/where.py	/^  def recurse(dataset):$/;"	kind:function	line:29
+redo	../tools/Discretize.py	/^    def redo(feature, klass, lvl):$/;"	kind:function	line:74
+reduce	../tools/sk.py	/^from functools import reduce$/;"	kind:namespace	line:15
+rf	../tools/tune/dEvol.py	/^from model import rf$/;"	kind:namespace	line:2
+rf	../tools/tune/model.py	/^class rf:$/;"	kind:class	line:19
+rfe_select	../commons/FeatureSelection.py	/^def rfe_select(tbl):$/;"	kind:function	line:7
+rfe_select	../warnplan2.py	/^from commons.FeatureSelection import rfe_select$/;"	kind:namespace	line:21
+rforest	../oracle/model.py	/^def rforest(train, target):$/;"	kind:function	line:27
+rforest	../tools/oracle.py	/^def rforest(train, test, tunings=None, smoteit=True, bin=True, smoteTune=True,regress=False):$/;"	kind:function	line:115
+rforest	../tools/tune/model.py	/^from tools.oracle import rforest$/;"	kind:namespace	line:15
+rforest_grid_tuned	../oracle/model.py	/^def rforest_grid_tuned(train, target):$/;"	kind:function	line:46
+root	../Utils/AxeUtils/MakeAModel.py	/^root = os.path.join(os.getcwd().split('src')[0], 'src')$/;"	kind:variable	line:7
+root	../Utils/AxeUtils/w2.py	/^root = os.path.join(os.getcwd().split('src')[0], 'src')$/;"	kind:variable	line:19
+root	../Utils/ExperimentUtils.py	/^root = os.path.join(os.getcwd().split('src')[0], 'src')$/;"	kind:variable	line:7
+root	../Utils/FileUtil.py	/^root = os.path.join(os.getcwd().split('src')[0], 'src')$/;"	kind:variable	line:7
+root	../commons/XTREE.py	/^root = os.path.join(os.getcwd().split('src')[0], 'src')$/;"	kind:variable	line:11
+root	../data/GetData.py	/^root = os.path.join(os.getcwd().split('project')[0], 'project')$/;"	kind:variable	line:6
+root	../main.py	/^root = os.path.join(os.getcwd().split('project')[0], 'project')$/;"	kind:variable	line:12
+root	../oracle/model.py	/^root = os.path.join(os.getcwd().split('src')[0], 'src')$/;"	kind:variable	line:13
+root	../warnplan2.py	/^root = os.path.join(os.getcwd().split('')[0], '\/')$/;"	kind:variable	line:12
+row	../tools/axe/table.py	/^def row(file,skip= The.reader.skip):$/;"	kind:function	line:27
+row	../tools/tune/model.py	/^  row = problem.generate(1)$/;"	kind:variable	line:69
+rows	../tools/axe/table.py	/^def rows(file, $/;"	kind:function	line:11
+rows	../tools/pyC45.py	/^    def rows():$/;"	kind:function	line:138
+rows	../tools/pyC45.py	/^    def rows():$/;"	kind:function	line:67
+rows1	../tools/axe/dtree.py	/^def rows1(row, tbl, cells=lambda r: r.cells):$/;"	kind:function	line:243
+rseed	../tools/axe/lib.py	/^rseed = random.seed$/;"	kind:variable	line:124
+rseed	../tools/axe/libWhere.py	/^rseed = random.seed$/;"	kind:variable	line:125
+rseed	../tools/where.py	/^from random import randint as randi, seed as rseed$/;"	kind:namespace	line:6
+s	../Utils/StatsUtils/ScottKnott.py	/^    def s(i):$/;"	kind:member	line:145
+s	../tools/sk.py	/^  def s(i):$/;"	kind:member	line:146
+sample	../tools/containers.py	/^def sample(**d):$/;"	kind:function	line:31
+sampleWithReplacement	../Utils/StatsUtils/ScottKnott.py	/^def sampleWithReplacement(lst):$/;"	kind:function	line:286
+sampleWithReplacement	../tools/sk.py	/^def sampleWithReplacement(lst):$/;"	kind:function	line:286
+sampled	../tools/axe/counts.py	/^def sampled():$/;"	kind:function	line:135
+sampleings	../tools/axe/settings.py	/^def sampleings(**d):$/;"	kind:function	line:64
+save	../Utils/ExperimentUtils.py	/^    def save(self, name=None, old=None, new=None):$/;"	kind:member	line:164
+say	../Utils/AxeUtils/MakeAModel.py	/^def say(text):$/;"	kind:function	line:12
+say	../tools/axe/lib.py	/^def say(*lst):$/;"	kind:function	line:163
+say	../tools/axe/libWhere.py	/^def say(*lst): print(*lst, end="")$/;"	kind:function	line:162
+say	../tools/misc.py	/^def say(text):$/;"	kind:function	line:7
+say	../tools/pyC45.py	/^    def say(x):$/;"	kind:function	line:167
+score	../tools/axe/dtree.py	/^  def score(l):$/;"	kind:function	line:259
+scores	../Utils/AxeUtils/w2.py	/^def scores(m, it):$/;"	kind:function	line:357
+scores	../tools/axe/where2.py	/^def scores(m,it):$/;"	kind:function	line:260
+scottknott	../Utils/StatsUtils/ScottKnott.py	/^def scottknott(data, cohen=0.3, small=3, useA12=False, epsilon=0.01):$/;"	kind:function	line:464
+scottknott	../tools/sk.py	/^def scottknott(data, cohen=0.3, small=3, useA12=False, epsilon=0.01):$/;"	kind:function	line:456
+sd	../tools/axe/counts.py	/^  def sd(i) :$/;"	kind:member	line:165
+sd	../tools/axe/lib.py	/^  def sd(i):$/;"	kind:member	line:67
+sd	../tools/axe/libWhere.py	/^    def sd(i):$/;"	kind:member	line:67
+sd	../tools/containers.py	/^  def sd(i) :$/;"	kind:member	line:90
+sdiv	../tools/axe/cube.py	/^def sdiv(lst, tiny=3,cohen=0.3,$/;"	kind:function	line:317
+second	../tools/axe/lib.py	/^def second(lst):$/;"	kind:function	line:148
+second	../tools/axe/libWhere.py	/^def second(lst): return lst[1]$/;"	kind:function	line:147
+seed	../Utils/StatsUtils/ScottKnott.py	/^seed = random.seed$/;"	kind:variable	line:48
+seed	../oracle/smote.py	/^from random import seed$/;"	kind:namespace	line:4
+seed	../tools/axe/lib.py	/^def seed(r=None):$/;"	kind:function	line:129
+seed	../tools/axe/libWhere.py	/^def seed(r=None):$/;"	kind:function	line:130
+seed	../tools/sk.py	/^seed = random.seed$/;"	kind:variable	line:50
+set_trace	../Utils/AxeUtils/w2.py	/^from pdb import set_trace$/;"	kind:namespace	line:23
+set_trace	../Utils/ExperimentUtils.py	/^from pdb import set_trace$/;"	kind:namespace	line:15
+set_trace	../Utils/FileUtil.py	/^from pdb import set_trace$/;"	kind:namespace	line:11
+set_trace	../Utils/StatsUtils/CrossVal.py	/^from pdb import set_trace$/;"	kind:namespace	line:3
+set_trace	../Utils/StatsUtils/ScottKnott.py	/^from pdb import set_trace$/;"	kind:namespace	line:13
+set_trace	../commons/XTREE.py	/^from pdb import set_trace$/;"	kind:namespace	line:17
+set_trace	../data/GetData.py	/^from pdb import set_trace$/;"	kind:namespace	line:3
+set_trace	../main.py	/^from pdb import set_trace$/;"	kind:namespace	line:9
+set_trace	../oracle/model.py	/^from pdb import set_trace$/;"	kind:namespace	line:5
+set_trace	../oracle/smote.py	/^from pdb import set_trace$/;"	kind:namespace	line:2
+set_trace	../tools/Discretize.py	/^from pdb import set_trace$/;"	kind:namespace	line:17
+set_trace	../tools/InfoGain.py	/^from pdb import set_trace$/;"	kind:namespace	line:2
+set_trace	../tools/misc.py	/^from pdb import set_trace$/;"	kind:namespace	line:4
+set_trace	../tools/oracle.py	/^from pdb import set_trace$/;"	kind:namespace	line:5
+set_trace	../tools/pyC45.py	/^from pdb import set_trace$/;"	kind:namespace	line:15
+set_trace	../tools/stats.py	/^from pdb import set_trace$/;"	kind:namespace	line:2
+set_trace	../tools/tune/dEvol.py	/^from pdb import set_trace$/;"	kind:namespace	line:6
+set_trace	../tools/where.py	/^from pdb import set_trace$/;"	kind:namespace	line:2
+set_trace	../warnplan2.py	/^from pdb import set_trace$/;"	kind:namespace	line:9
+settings	../tools/axe/config.py	/^def settings():$/;"	kind:function	line:5
+settings	../tools/axe/settings.py	/^def settings(f=None):$/;"	kind:function	line:31
+settings	../tools/dtree.py	/^def settings(**d):$/;"	kind:function	line:7
+settings	../tools/tune/dEvol.py	/^class settings:$/;"	kind:class	line:8
+settings.py	../tools/axe/settings.py	1;"	kind:file	line:1
+settingsWhere.py	../tools/axe/settingsWhere.py	1;"	kind:file	line:1
+show	../Utils/AxeUtils/w2.py	/^    def show(suffix):$/;"	kind:function	line:261
+show	../Utils/StatsUtils/ScottKnott.py	/^    def show(i):$/;"	kind:member	line:36
+show	../tools/axe/where2.py	/^  def show(suffix): $/;"	kind:function	line:176
+show	../tools/pyC45.py	/^def show(n, lvl=-1):$/;"	kind:function	line:165
+show	../tools/sk.py	/^  def show(i):$/;"	kind:member	line:40
+showTdiv	../tools/axe/dtree.py	/^def showTdiv(n, lvl=-1):$/;"	kind:function	line:115
+showd	../tools/axe/lib.py	/^def showd(d):$/;"	kind:function	line:186
+showd	../tools/axe/libWhere.py	/^def showd(d):$/;"	kind:function	line:187
+shuffle	../tools/misc.py	/^def shuffle(df, n=1, axis=0):     $/;"	kind:function	line:10
+sides	../tools/axe/cube.py	/^def sides(t,opt=distings()):$/;"	kind:function	line:290
+sides0	../tools/axe/cube.py	/^def sides0(**also):$/;"	kind:function	line:12
+sides1	../tools/axe/cube.py	/^def sides1(t, (there,perimeter), corners, opt):$/;"	kind:function	line:296
+sidesed	../tools/axe/cube.py	/^def sidesed(f='data.dat\/diabetes.csv'):$/;"	kind:function	line:465
+sk.py	../tools/sk.py	1;"	kind:file	line:1
+sk_chart	../Utils/StatsUtils/ScottKnott.py	/^def sk_chart(data):$/;"	kind:function	line:562
+smote.py	../oracle/smote.py	1;"	kind:file	line:1
+snakesAndLadders	../tools/axe/dtree.py	/^def snakesAndLadders(tree, train, w):$/;"	kind:function	line:249
+snl	../tools/axe/dtree.py	/^def snl(file='data.dat\/poi-1.5D.csv', rseed=1, w=dict(_1=0, _0=1)):$/;"	kind:function	line:340
+solve	../tools/tune/model.py	/^  def solve(i,dec):$/;"	kind:member	line:42
+some	../Utils/AxeUtils/w2.py	/^def some(m, x):$/;"	kind:function	line:352
+some	../tools/axe/where2.py	/^def some(m,x) :$/;"	kind:function	line:256
+someTestStatistic	../tools/axe/counts.py	/^  def someTestStatistic(one,two): $/;"	kind:function	line:284
+somepairs	../Utils/AxeUtils/w2.py	/^def somepairs(m, data):$/;"	kind:function	line:53
+split	../Utils/StatsUtils/CrossVal.py	/^    def split(cls, datapaths):$/;"	kind:member	line:17
+split	../Utils/StatsUtils/CrossVal.py	/^    def split(cls, dframe, ways=5):$/;"	kind:member	line:44
+split	../Utils/StatsUtils/CrossVal.py	/^    def split(cls, dframe, ways=5):$/;"	kind:member	line:59
+spread	../Utils/StatsUtils/ScottKnott.py	/^    def spread(i):$/;"	kind:member	line:176
+spread	../tools/sk.py	/^  def spread(i):$/;"	kind:member	line:177
+stats	../tools/stats.py	/^  def stats(self):$/;"	kind:member	line:21
+stats.py	../tools/stats.py	1;"	kind:file	line:1
+stdev	../tools/Discretize.py	/^        def stdev(x):$/;"	kind:function	line:57
+stop	../tools/Discretize.py	/^            def stop(k, k_l, k_r):$/;"	kind:function	line:90
+str2num	../Utils/AxeUtils/MakeAModel.py	/^  def str2num(self, tbl):$/;"	kind:member	line:61
+stringify	../Utils/StatsUtils/ABCD.py	/^    def stringify(lst):$/;"	kind:function	line:21
+stringings	../tools/axe/settings.py	/^def stringings():$/;"	kind:function	line:41
+strp	../tools/axe/demos.py	/^  def strp(x): return isinstance(x,basestring)$/;"	kind:function	line:14
+strp	../tools/axe/lib.py	/^  def strp(x):$/;"	kind:function	line:232
+strp	../tools/axe/libWhere.py	/^    def strp(x):$/;"	kind:function	line:236
+subprocess	../tools/tune/model.py	/^import subprocess$/;"	kind:namespace	line:3
+symed	../tools/axe/counts.py	/^def symed():$/;"	kind:function	line:77
+sys	../Utils/AxeUtils/MakeAModel.py	/^import sys$/;"	kind:namespace	line:4
+sys	../Utils/AxeUtils/w2.py	/^import sys$/;"	kind:namespace	line:16
+sys	../Utils/ExperimentUtils.py	/^import sys$/;"	kind:namespace	line:4
+sys	../Utils/FileUtil.py	/^import sys$/;"	kind:namespace	line:4
+sys	../Utils/StatsUtils/ScottKnott.py	/^import sys, random, math$/;"	kind:namespace	line:12
+sys	../commons/XTREE.py	/^import sys$/;"	kind:namespace	line:8
+sys	../data/GetData.py	/^import sys$/;"	kind:namespace	line:2
+sys	../main.py	/^import sys$/;"	kind:namespace	line:8
+sys	../oracle/model.py	/^import sys$/;"	kind:namespace	line:4
+sys	../tools/axe/abcd.py	/^import sys$/;"	kind:namespace	line:2
+sys	../tools/axe/axe.py	/^import sys$/;"	kind:namespace	line:1
+sys	../tools/axe/config.py	/^import sys,base$/;"	kind:namespace	line:2
+sys	../tools/axe/counts.py	/^import sys$/;"	kind:namespace	line:2
+sys	../tools/axe/cube.py	/^import sys$/;"	kind:namespace	line:2
+sys	../tools/axe/demos.py	/^import sys$/;"	kind:namespace	line:2
+sys	../tools/axe/dtree.py	/^import sys$/;"	kind:namespace	line:11
+sys	../tools/axe/fi.py	/^import sys$/;"	kind:namespace	line:2
+sys	../tools/axe/learn.py	/^import sys$/;"	kind:namespace	line:2
+sys	../tools/axe/lib.py	/^  import sys$/;"	kind:namespace	line:228
+sys	../tools/axe/lib.py	/^import sys$/;"	kind:namespace	line:10
+sys	../tools/axe/libWhere.py	/^    import sys$/;"	kind:namespace	line:233
+sys	../tools/axe/libWhere.py	/^import sys$/;"	kind:namespace	line:12
+sys	../tools/axe/nasa93.py	/^import  sys$/;"	kind:namespace	line:9
+sys	../tools/axe/settingsWhere.py	/^import sys$/;"	kind:namespace	line:8
+sys	../tools/axe/table.py	/^import sys$/;"	kind:namespace	line:7
+sys	../tools/axe/where2.py	/^import  sys  $/;"	kind:namespace	line:13
+sys	../tools/misc.py	/^import sys$/;"	kind:namespace	line:5
+sys	../tools/pyC45.py	/^    import sys$/;"	kind:namespace	line:166
+sys	../tools/sk.py	/^import sys$/;"	kind:namespace	line:12
+sys	../tools/tune/model.py	/^import sys$/;"	kind:namespace	line:4
+sys	../warnplan2.py	/^import sys$/;"	kind:namespace	line:8
+t	../tools/axe/counts.py	/^  def t(i,j):$/;"	kind:member	line:197
+table	../tools/axe/table.py	/^def table(source, rows = True, contents = row):$/;"	kind:function	line:36
+table.py	../tools/axe/table.py	1;"	kind:file	line:1
+table0	../tools/axe/table.py	/^def table0(source):$/;"	kind:function	line:48
+tableCopied	../tools/axe/table.py	/^def tableCopied(f='data.dat\/weather2.csv'):$/;"	kind:function	line:126
+tabled	../tools/axe/table.py	/^def tabled(f='data.dat\/weather2.csv'):$/;"	kind:function	line:120
+tdiv	../tools/axe/dtree.py	/^def tdiv(tbl, rows=None, opt=The.tree):$/;"	kind:function	line:78
+tdiv1	../tools/axe/dtree.py	/^def tdiv1(t, rows, lvl=-1, asIs=10 ** 32, up=None, features=None, branch=[],$/;"	kind:function	line:54
+tdived	../tools/axe/dtree.py	/^def tdived(file='data.dat\/diabetes.csv'):$/;"	kind:function	line:302
+tell	../tools/axe/abcd.py	/^  def tell(i, actual, predict):$/;"	kind:member	line:22
+test	../tools/axe/counts.py	/^def test(f=None,cache=[]):$/;"	kind:function	line:9
+test	../tools/axe/demos.py	/^def test(f=None,cache=[]):$/;"	kind:function	line:34
+testStatistic	../Utils/StatsUtils/ScottKnott.py	/^def testStatistic(y, z):$/;"	kind:function	line:312
+testStatistic	../tools/sk.py	/^def testStatistic(y, z):$/;"	kind:function	line:310
+test_advance.py	../tests/test_advance.py	1;"	kind:file	line:1
+test_basic.py	../tests/test_basic.py	1;"	kind:file	line:1
+test_createTbl	../Utils/FileUtil.py	/^def test_createTbl():$/;"	kind:function	line:78
+test_data	../tools/InfoGain.py	/^    test_data = list2dataframe(data["ant"].data)$/;"	kind:variable	line:63
+tested	../tools/axe/demos.py	/^def tested():$/;"	kind:function	line:54
+tests	../tools/axe/demos.py	/^def tests():$/;"	kind:function	line:65
+thingsed	../tools/axe/settings.py	/^def thingsed(**d):$/;"	kind:function	line:127
+third	../tools/axe/lib.py	/^def third(lst):$/;"	kind:function	line:152
+third	../tools/axe/libWhere.py	/^def third(lst): return lst[2]$/;"	kind:function	line:150
+time	../Utils/StatsUtils/ScottKnott.py	/^    import time$/;"	kind:namespace	line:65
+time	../tools/axe/lib.py	/^  import time$/;"	kind:namespace	line:261
+time	../tools/axe/libWhere.py	/^    import time$/;"	kind:namespace	line:267
+time	../tools/oracle.py	/^from time import time$/;"	kind:namespace	line:7
+time	../tools/sk.py	/^  import time$/;"	kind:namespace	line:69
+time	../tools/tune/dEvol.py	/^from time import time$/;"	kind:namespace	line:5
+timing	../tools/axe/lib.py	/^def timing(f, repeats=10):$/;"	kind:function	line:259
+timing	../tools/axe/libWhere.py	/^def timing(f, repeats=10):$/;"	kind:function	line:265
+todo	../tools/axe/lib.py	/^def todo(com="print(The._logo,'WHERE (2.0) you at?')"):$/;"	kind:function	line:227
+todo	../tools/axe/libWhere.py	/^def todo(com="print(The._logo,'WHERE (2.0) you at?')"):$/;"	kind:function	line:232
+tooDeep	../Utils/AxeUtils/w2.py	/^    def tooDeep():$/;"	kind:function	line:255
+tooDeep	../tools/axe/where2.py	/^  def tooDeep(): return lvl > The.what.depthMax$/;"	kind:function	line:174
+tooFew	../Utils/AxeUtils/w2.py	/^    def tooFew():$/;"	kind:function	line:258
+tooFew	../tools/axe/where2.py	/^  def tooFew() : return len(data) < The.what.minSize$/;"	kind:function	line:175
+total	../Utils/StatsUtils/ScottKnott.py	/^    class total():$/;"	kind:class	line:344
+total	../tools/sk.py	/^  class total():$/;"	kind:class	line:341
+trainTest	../tools/axe/learn.py	/^def trainTest(tests,trains,indep,dep):$/;"	kind:function	line:10
+treeings	../tools/axe/settings.py	/^def treeings(**d):$/;"	kind:function	line:93
+ttest	../tools/axe/counts.py	/^def ttest(i,j,conf=The.math.brink.conf,$/;"	kind:function	line:226
+ttest1	../tools/axe/counts.py	/^  def ttest1(n):$/;"	kind:function	line:245
+tuner	../tools/tune/dEvol.py	/^def tuner(data, smoteTune=True):$/;"	kind:function	line:134
+two	../tools/axe/lib.py	/^  def two(x, y):$/;"	kind:function	line:248
+two	../tools/axe/libWhere.py	/^    def two(x, y):$/;"	kind:function	line:251
+twoDistant	../tools/axe/cube.py	/^def twoDistant(t,rows,opt):$/;"	kind:function	line:77
+twolists	../tools/axe/counts.py	/^  def twolists():$/;"	kind:function	line:395
+uniform	../Utils/ExperimentUtils.py	/^from random import uniform$/;"	kind:namespace	line:12
+uniform	../commons/XTREE.py	/^from random import uniform, random as rand$/;"	kind:namespace	line:22
+uniform	../tools/tune/model.py	/^from random import uniform$/;"	kind:namespace	line:14
+update	../Utils/AxeUtils/MakeAModel.py	/^  def update(self, **d):$/;"	kind:member	line:21
+update	../tools/axe/settingsWhere.py	/^    def update(i, **d): i.has().update(d); return i$/;"	kind:member	line:23
+val	../tools/axe/cube.py	/^  def val(what):$/;"	kind:function	line:276
+val	../tools/axe/dtree.py	/^  def val(xxx_todo_changeme):$/;"	kind:function	line:344
+value	../tools/axe/lib.py	/^  def value(x):$/;"	kind:function	line:242
+value	../tools/axe/libWhere.py	/^    def value(x):$/;"	kind:function	line:245
+w2.py	../Utils/AxeUtils/w2.py	1;"	kind:file	line:1
+walk	../tools/misc.py	/^from os import walk$/;"	kind:namespace	line:2
+walk	../tools/where.py	/^from os import walk$/;"	kind:namespace	line:5
+warnings	../main.py	/^import warnings$/;"	kind:namespace	line:22
+warnings	../oracle/smote.py	/^import warnings$/;"	kind:namespace	line:10
+warnings	../tools/oracle.py	/^import warnings$/;"	kind:namespace	line:3
+warnings	../warnplan2.py	/^import warnings$/;"	kind:namespace	line:23
+warnplan2.py	../warnplan2.py	1;"	kind:file	line:1
+where	../tools/where.py	/^def where(data):$/;"	kind:function	line:9
+where.py	../tools/where.py	1;"	kind:file	line:1
+where2	../Utils/AxeUtils/w2.py	/^def where2(m, data, lvl=0, up=None, verbose=False):$/;"	kind:function	line:251
+where2	../Utils/FileUtil.py	/^from AxeUtils.w2 import where2, prepare, leaves$/;"	kind:namespace	line:14
+where2	../tools/axe/where2.py	/^def where2(m, data, lvl=0, up=None):$/;"	kind:function	line:172
+where2.py	../tools/axe/where2.py	1;"	kind:file	line:1
+winLoss	../tools/axe/culled.py	/^  def winLoss(i,j,reverse=False, $/;"	kind:function	line:2
+worker	../Utils/StatsUtils/ScottKnott.py	/^    def worker(n=1000,$/;"	kind:function	line:381
+worker	../tools/sk.py	/^  def worker(n=1000,$/;"	kind:function	line:377
+wrap	../tools/axe/demos.py	/^  def wrap(x): return "'%s'"%x if strp(x) else str(x)$/;"	kind:function	line:15
+wrap	../tools/axe/lib.py	/^  def wrap(x):$/;"	kind:function	line:235
+wrap	../tools/axe/libWhere.py	/^    def wrap(x):$/;"	kind:function	line:239
+xgboost	../oracle/model.py	/^def xgboost(train, target):$/;"	kind:function	line:76
+xgboost_grid_tuned	../oracle/model.py	/^def xgboost_grid_tuned(train, target):$/;"	kind:function	line:101
+xpect	../tools/axe/dtree.py	/^  def xpect(tbl):$/;"	kind:function	line:256
+xtile	../Utils/StatsUtils/ScottKnott.py	/^def xtile(lst, lo=0, hi=100, width=50,$/;"	kind:function	line:79
+xtile	../tools/sk.py	/^def xtile(lst, lo=0, hi=1, width=50,$/;"	kind:function	line:83
+xtree	../commons/XTREE.py	/^def xtree(train_df, test_df):$/;"	kind:function	line:121
+xtree	../main.py	/^from commons.XTREE import xtree$/;"	kind:namespace	line:19
+xtree	../warnplan2.py	/^from commons.XTREE import xtree$/;"	kind:namespace	line:19
+xval	../tools/axe/dtree.py	/^def xval(tbl, m=None, n=None, opt=The.tree):$/;"	kind:function	line:152
+z	../Utils/StatsUtils/ScottKnott.py	/^    def z(x):$/;"	kind:function	line:563
+z	../tools/sk.py	/^    def z(x):$/;"	kind:function	line:563
+z	../tools/sk.py	/^    def z(x):$/;"	kind:function	line:605
+zero	../tools/axe/counts.py	/^  def zero(i):$/;"	kind:member	line:158
+zero	../tools/axe/lib.py	/^  def zero(i):$/;"	kind:member	line:63
+zero	../tools/axe/libWhere.py	/^    def zero(i):$/;"	kind:member	line:63
+zero	../tools/containers.py	/^  def zero(i):$/;"	kind:member	line:84
