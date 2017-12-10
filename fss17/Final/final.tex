@@ -17,7 +17,6 @@
 \definecolor{Green}{rgb}{.12,.79,.17}
 \usepackage{tikz}
 \usepackage{calc}
-\linespread{1.0}
 \def\checkmark{\tikz\fill[scale=0.3](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) 
 -- cycle;} 
 \def\scalecheck{\resizebox{\widthof{\checkmark}*\ratio{\widthof{x}}{\widthof{\normalsize
@@ -32,7 +31,7 @@
 \newcommand{\ei}{\end{itemize}}
 \newcommand{\ee}{\end{enumerate}}
 \newcommand{\tion}[1]{\S~\ref{sect:#1}}
-\newcommand{\eq}[1]{\S~\ref{eq:#1}}
+\newcommand{\eq}[1]{Eq.~\ref{eq:#1}}
 \newcommand{\fig}[1]{Fig.~\ref{fig:#1}}
 \setlength{\abovedisplayskip}{4pt}
 \setlength{\belowdisplayskip}{4pt}
@@ -73,16 +72,238 @@ offer over 75\% overlap.
 \section{Introduction}
 \label{sect:intro}
 
+Over the past decade, advances in AI have enabled a widespread use of data 
+analytics in software engineering. For example, we can now estimate how long it 
+would take to integrate the new code~\cite{czer11}, where bugs are most likely 
+to occur~\cite{Menzies2007a}, or amount of effort it will take to develop a 
+software package~\cite{turhan11}, etc. Despite these successes, there is a 
+primary operational shortcoming with many software analytic tools lack 
+of insightful analytics.
+
+Business users also lament that most software analytics tools, ``Tell us what 
+\textit{is}. But they don't tell us 
+\textit{what to do}''. A concern that was also raised by several researchers at 
+a recent workshop on ``Actionable Analytics'' at 2015 IEEE conference on 
+Automated Software Engineering~\cite{hihn15}. For example, most software 
+analytics tools in the area of detecting software defects are mostly 
+\textit{prediction} algorithms such as Support Vector Machines, Naive Bayes, 
+Logistic Regression, Decision Trees, etc~\cite{scikit-learn}. These prediction 
+algorithms report what combinations of software project features predict for 
+the number of defects. But this is different task to \textit{planning}, which 
+answers a more pressing question: what to {\em change} in order to {\em reduce} 
+these defects. Accordingly, in this research, we seek tools that offer clear 
+guidance on what to do in a specific project.
+
+The tool assessed in this paper is the XTREE \textit{planning} 
+tool~\cite{krishna17a}. XTREE employs a $cluster+contrast$ approach to planning 
+where it (a) \textit{Clusters} different parts of the software project based on 
+a quality measure (e.g. the number of defects); (b) Reports the 
+\textit{contrast sets} between neighboring clusters. Each of these contrast 
+sets represent the difference between these clusters and they can  be 
+interpreted as plans: 
+\begin{itemize}
+	\item If a current project falls into cluster $C_1$,
+	\item Some neighboring cluster $C_2$ has better quality.
+	\item Then the difference {\em $\Delta=$ $C_2$ - $C_1$} is a {\em plan} for 
+	changing a  project such that it \textit{might} have   higher quality.
+\end{itemize}
+
+XTREE uses data from within a software project to these generate plans. 	
+Generation of conclusions are an inherent property of XTREE. But, the key 
+question with the first version of XTREE is that some of the conclusions were 
+not really actionable. So, in this work, we explore ways in which XTREE can 
+limit it's conclusions to only actionable ones. With this in mind, in this work 
+we ask and answer the following research questions
+
+\be[leftmargin=-1pt]
+\item[] \textbf{\noindent RQ1: How many valid changes does baseline XTREE 
+recommend?} 
+
+
+\textit{Motivation:} The first research question seeks to establish a baseline 
+result. Here, we ask how many changes recommended by a simple version of XTREE 
+(labeled $XTREE_{simple}$) are actually implemented by developers.
+
+
+\textit{Approach:} We use a set of 3 datasets -- train, test, validate. We 
+construct a planner (XTREE) on the train set, and plan to reduce defects in the 
+test set. Then, we look at the validation set, and reflect on the recommended 
+changes. We expect to see a number of changes proposed by XTREE to overlap with 
+those undertaken by developers. This will also offer us a baseline, which can 
+then be improved upon to increase the extent of overlap.
+
+
+\textit{Results:} We found that with the existing baseline version of XTREE, 
+around 50\% of the changes that were recommended by XTREE were also undertaken 
+by the developers.
+
+
+\item[] \textbf{\noindent RQ2: How many defects baseline XTREE assist in 
+reducing?}
+
+
+\textit{Motivation:} In this research question we seek to establish the 
+effectiveness of XTREE. That is, for every defective class in the test dataset, 
+we look to see if implementing changes recommended by XTREE leads to the 
+reduction of defects.
+
+
+\textit{Approach:} In order to establish this, we look at the defective classes 
+in the test dataset, and the same class in the validation dataset. If the 
+defects have been fixed, we look to see if the recommendations made by XTREE 
+were heeded during that fix. If so, this will point to the uselessness of 
+XTREE's plans.
+
+\textit{Results:} We found that XTREE is quite effective in reducing defects. 
+In more than 50\% of the cases, the number of defects reduced after using the 
+plans proposed by XTREE.
+
+
+\item[] \textbf{\noindent RQ3: How to extend XTREE to recommend more valid 
+changes?} 
+
+
+\textit{Motivation:} In the first research question, we showed that in 50\% of 
+the cases, the plans offered by XTREE were also implemented by developers. In 
+this research question, we ask if there is a way to increase the overlap 
+between the number of plans proposed by XTREE and those undertaken by 
+developers.
+
+
+\textit{Approach:} To answer this question, we developed two variants of XTREE 
+--- $XTREE_{pruned}$ and $XTREE_{all}$. The details of their implementation are 
+discussed elsewhere in the paper. 
+
+
+\textit{Results:}
+
+
+\item[] \textbf{\noindent RQ4: How many defects does extended XTREE assist in 
+reducing?} \\
+\textit{Motivation:}\\
+\textit{Approach:}\\
+\textit{Results:}
+\ee
+
 \section{Related Work}
 \label{sect:related}
+Planning  has been a subject of much research in artificial intelligence. Here, 
+planning usually refers to generating a sequence of actions that enables an 
+\textit{agent} to achieve a specific \textit{goal}~\cite{norvig}. This can be 
+achieved by classical search-based problem solving  approaches or logical 
+planning agents. Such planning tasks now play a significant role in a variety 
+of demanding applications, ranging from controlling space vehicles and robots 
+to playing the game of bridge~\cite{ghallab04}. Some of the most common 
+planning paradigms include: (a) classical planning~\cite{wooldridge95}; (b) 
+probabilistic planning~\cite{altman99}; and (c) preference-based 
+planning~\cite{baier09}. 
 
-\section{Planning in Software Engineering}
-\label{sect:planning}
+Existence of a model precludes the use of each of these planning approaches. 
+This is a limitation of all these planning approaches since not every domain 
+has a reliable model. In software engineering, the planning problem translates 
+to proposing changes to software artifacts. Solving this has been undertaken 
+via the use of some search-based software engineering 
+techniques~\cite{Harman2009}. Examples of algorithms include SWAY, NSGA-II, 
+etc.~\cite{nair2016accidental,deb00a}.
+
+These search-based software engineering techniques require access to some 
+trustworthy models that can be used to explore novel solutions. In some 
+software engineering domains there is ready access to such models which can 
+offer assessment of newly generated plans. Examples of such domains within 
+software engineering include automated program repair~\cite{Weimer2009, 
+LeGoues2015}, software product line management~\cite{sayyad13, henard15}, etc.
+
+However, not all domains come with ready-to-use models. For example, consider 
+software defect prediction and all the intricate issues that may lead to 
+defects in a product. A model that includes {\em all} those potential issues 
+would be very large and complex. Further, the empirical data required to 
+validate any/all parts of that model can be hard to find. Also, even when there 
+is an existing model, they can require constant  maintenance lest they become 
+out-dated. In such domains, we seek alternate methods for planning that can be 
+automatically updated with new data without a need for comprehensive models. 
+For this, we propose the use of data mining approaches to create a quasi-model 
+of the domain 
+and make of use observable states from this data to generate an estimation of 
+the model. Our preferred tools in this paper (XTREE and BELLTREE) take this 
+approach by constructing decision trees on available data (discussed in 
+\tion{xtree}). In \tion{results}, we show that these methodologies have 
+encouraging results.
+
+In summary, for domains with readily accessible models, we recommend
+the tools used by the search-based
+software engineering community. For domains, where domain-models are not 
+available, we recommend tools such as ours. 
+
+
+\section{Planning in Software Analytics}
+\label{sect:motivate}
+
+In the previous sections, we introduced the notion of planning for decision 
+making. In this section we offer a description of each of these planning 
+methods:
+
+\subsection{$XTREE_{simple}$}
+\label{sect:XTREE}
+
+\input{xtree.tex}
+
+XTREE builds a decision tree,  then generates
+plans by contrasting the differences between two branches:
+(1)~the branch where you are; (2)~the branch to where you want to be.
+
+XTREE takes a {\em supervised} $Cluster+Contrast$ approach to planning because 
+we hypothesize that it is useful to reflect on the target class. Thus, XTREE 
+uses a supervised decision tree algorithm of \fig{xtree}.A. To divide 
+continuous numeric data, we use a Fayyad-Irani discretizer of \fig{xtree}.B.
+Next, XTREE builds plans from the branches of the decision trees using the 
+description of \fig{xtree}.C.
+In doing so, we ask three questions, the last of which returns the plan:
+\be
+\item
+Which {\em current} branch does a test case fall in?
+\item Which {\em desired} branch would the test case want to move to?
+\item What are the {\em deltas} between current and desired branches? 
+\ee
+These \textit{deltas} represent the threshold ranges\footnote{Thresholds are 
+denoted by $[low,high)$ ranges for each metric} that represent the plans to 
+reduce the defects. 
+
+
+\subsection{$XTREE_{pruned}$}
+$XTREE_{pruned}$ is structurally similar to $XTREE_{simple}$. It differs in the 
+steps taken after the construction of the planner. While XTREE uses data from 
+the training set to construct a planner, $XTREE_{pruned}$ augments this by 
+pruning the branches of the tree by removing the leaves that represent changes 
+that have never been seen before. 
+
+To achieve this, we employ first use the past data to keep track of changes 
+that were done by developers. Next, we construct XTREE using the same strategy 
+as in~\fig{xtree}.  Then, we prune the branches of the tree that represent 
+changes that have never been seen before. This pruned tree may then be used to 
+generate plans. 
+
+This is a very simple approach. We posit that this will enable us to generate 
+plans that not only reduce defects but also increase the likelihood that these 
+plans are similar to what developers usually recommend.
+
+\subsection{$XTREE_{all}$}
+$XTREE_{all}$ is also structurally similar to $XTREE_{simple}$. It add a few 
+additional steps after the construction of the decision tree. We first use data 
+from the training set to construct a planner, then for every defective instance 
+in the test case, we obtain all possible changes from $XTREE_{simple}$.
+
+Next, we use the past data to keep track of changes that were done by 
+developers. Then, we rank the possible changes based on what has previously 
+been seen by developers. 
+
+This is also a very simple approach. This ranking process enables us to ensure 
+that the generate plans are most likely to reduce defects and also increase the 
+likelihood that these plans are similar to what developers usually recommend.
 
 \section{Experimental Setup}
 \label{sect:expt}
 
-\subsection{Datasets}
+\subsection{Datasets} 
 \label{sect:datasets}
 \input{datasets_img.tex}
 \input{datasets.tex}
@@ -119,49 +340,44 @@ complexity metrics.
 \label{sect:procedure}
 \input{expt_design.tex}
 
-Our experimental design is shown in \fig{design}. We divide the
-project data  into two parts the \textit{train set} and the \textit{test test}.
-The train set could either be data that is available locally within a project, 
-or it could be data from the bellwether dataset. We partition the train set to 
-build both a {\em planner} and a {\em  verification oracle}. 
+Our experimental design is shown in \fig{design}. For a project $\mathbb{P}$ 
+with versions $\mathcal{V}=\{1, ..., N\}$, we divide the
+project data  into three parts: we use $\mathcal{V}-2$ as the \textit{train 
+set}, $\mathcal{V}-1$ as the \textit{test test}, and $\mathcal{V}$ as the
+\textit{validation set} in the following fashion:
 
-The following paragraph shows our {\bf principle of separation} which, we 
-assert, is necessary to verify this kind of research: 
-\begin{quote}
-	{\em The verification oracle should be built with completely different data to 
-	the planner, i.e., the data used for training a planner and constructing the 
-	verification oracle are disjoint sets.}
-\end{quote}
+\be
+\item The train test is used to construct the planner. In \tion{planners} we 
+describe the planners and a way to translate these plans 
+into actionable decisions. 
+\item Next, the test set used to generate for. That is, for every defective 
+module in the test set, we obtain plans from the train set.
+\item The validation set is used to assess the effect of acting on these plans. 
+This is necessary because it lets us judge the  effects of applying the plan. 
+If the defect has been fixed in the validation set as a result of complying 
+with plans from XTREE.
+\ee
 
+The above steps are repeated for all the $N$ versions of every project. 
 
-In \tion{planners} we describe the planners and a way to translate these plans 
-into actionable decisions. To assess the effect of acting on these plans, we 
-propose a  \textit{verification oracle}. This is necessary because it can be 
-rather difficult  to judge the  effects of applying the plan. They cannot be 
-assessed just by a rerun of the test
-suite for three reasons: (1) The defects were recorded by a post release bug 
-tracking system. It is entirely possible it escaped detection by the existing 
-test suite; (2) Rewriting test cases to enable coverage of all possible 
-scenarios presents a significant challenge; and (3) It make take a significant 
-amount of effort to write new test cases that 
-identify these changes as they are made.
-
-To resolve this problem, SE researchers such as
+In software analysis, there is the issue of reliable verification oracles to 
+test effects of planning. To resolve this problem, SE researchers such as
 Cheng et al.~\cite{Cheng10}, O'Keefe et al.~\cite{OKeeffe08,OKeeffe07},
 Moghadam~\cite{Moghadam2011} and Mkaouer et al.~\cite{Mkaouer14}
 use a {\em verification oracle} that is learned separately
 from the primary oracle. The verification oracles assesses
 how defective the code is before and after some
 code changes.
-For their secondary verification oracle,
+For their verification oracle,
 Cheng, O'Keefe, Moghadam and  Mkaouer et al. use the QMOOD hierarchical
 quality model~\cite{Bansiya02}.
 A shortcoming of QMOOD
 is that quality models learned from other projects
 may perform poorly when applied to new projects~\cite{localvsglobal}.
 
-Hence, for this study, we  eschew
-older quality models like QMOOD.
+Hence, for this study, we make use of the validation set in place of 
+verification oracle. These validation sets represent the ground truth and are 
+therefore a true representation of the impact of acting on these plans.
 
 \subsection{Performance Measures}
 \label{sect:evaluation}
@@ -193,7 +409,21 @@ this means  ``no change from baseline'';
 (3) If $R < 0\%$, this indicates ``optimization failure''. Ideally, an 
 effective planner should have an improvement of $R>0$, where larger values 
 indicate better performance. 
-
+\subsubsection{Overlap}
+\label{overlap} In order to measure the number of changes common to what the 
+developers implemented and what XTREE recommends, we use a measure called 
+overlap. Overlap is given as follows:
+\begin{equation}
+\label{eq:overlap}
+O = \left(\frac{{XTRE{E_{recommended}}}}{{Changed}} + \frac{{XTRE{E_{not - 
+recommended}}}}{{Unchanged}}\right)\times100
+\end{equation}
+Where, $XTRE{E_{recommended}}$ is the changes recommended by XTREE, $Changed$ 
+are the changes implemented by the developers. Similarly, $XTRE{E_{not - 
+		recommended}}$ are the changes not-recommended by developers and $Unchanged$ 
+		are the change not-performed by the developer. The higher the value of 
+		overlap between XTREE's recommendations and the actual changes performed by 
+		the developers, the larger the value of $O$
 \subsection{Statistics}
 \label{sect:stats}
 Changes made to module in a software project are subject to inherent 
@@ -260,9 +490,6 @@ possible that the difference
 \label{sect:results}
 
 	\section{Reliability and Validity of Conclusions}
-
-\section{Conclusions and Future Work}
-\label{sect:conclusion}
 
 \label{sect:valid}
 
@@ -361,6 +588,11 @@ that other researchers can
 try to repeat our results and, perhaps, point out a previously unknown bias
 in our analysis. Hopefully, other researchers will emulate our methods in
 order to repeat, refute, or improve our results.
+
+
+\section{Conclusions and Future Work}
+\label{sect:conclusion}
+
 
 \balance
 \bibliographystyle{ACM-Reference-format}

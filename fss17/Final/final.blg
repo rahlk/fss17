@@ -10,6 +10,54 @@ You're missing a field name---line 868 of file final.bib
  : %  month = {jun},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Repeated entry---line 889 of file final.bib
+ : @inproceedings{czer11
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 903 of file final.bib
+ : @inproceedings{hihn15
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 958 of file final.bib
+ : @book{norvig
+ :             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 975 of file final.bib
+ : @book{altman99
+ :               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 983 of file final.bib
+ : @article{wooldridge95
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 994 of file final.bib
+ : @article{deb00a
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1004 of file final.bib
+ : @inproceedings{baier09
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1035 of file final.bib
+ : @article{Harman2009
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1071 of file final.bib
+ : @book{ghallab04
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1078 of file final.bib
+ : @article{Menzies2007a
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1111 of file final.bib
+ : @inproceedings{turhan11
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1294 of file final.bib
+ : @article{krishna17a
+ :                    ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 1335 of file final.bib
  : @inproceedings{krishna16
  :                         ,
@@ -46,6 +94,22 @@ Repeated entry---line 2253 of file final.bib
  : @inproceedings{Nam15
  :                     ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 2569 of file final.bib
+ : @inproceedings{sayyad13
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2580 of file final.bib
+ : @inproceedings{henard15
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2740 of file final.bib
+ : @article{LeGoues2015
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2790 of file final.bib
+ : @inproceedings{Weimer2009
+ :                          ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "vaux2012replicates"
 Warning--I didn't find a database entry for "leech2002call"
 Warning--I didn't find a database entry for "poulding10"
@@ -57,58 +121,84 @@ Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty address in altman99
 Warning--empty publisher in arcuri11
 Warning--empty address in arcuri11
+Warning--empty publisher in baier09
+Warning--empty address in baier09
 Warning--numpages field, but no articleno or eid field, in Bansiya02
 Warning--numpages field, but no articleno or eid field, in Cheng10
+Warning--empty publisher in czer11
+Warning--empty address in czer11
+Warning--no number and no volume in fi
+Warning--page numbers missing in both pages and numpages fields in fi
+Warning--empty address in ghallab04
+Warning--no number and no volume in Harman2009
+Warning--page numbers missing in both pages and numpages fields in Harman2009
+Warning--empty publisher in henard15
+Warning--empty address in henard15
+Warning--empty publisher in hihn15
+Warning--empty address in hihn15
 Warning--empty publisher in Kocaguneli2013:ep
 Warning--empty address in Kocaguneli2013:ep
+Warning--no number and no volume in krishna17a
+Warning--page numbers missing in both pages and numpages fields in krishna17a
 Warning--empty year in localvsglobal
 Warning--empty title in localvsglobal
 Warning--no number and no volume in localvsglobal
 Warning--page numbers missing in both pages and numpages fields in localvsglobal
+Warning--page numbers missing in both pages and numpages fields in Menzies2007a
 Warning--numpages field, but no articleno or eid field, in Mkaouer14
+Warning--empty publisher in nair2016accidental
+Warning--empty address in nair2016accidental
 Warning--numpages field, but no articleno or eid field, in OKeeffe08
 Warning--numpages field, but no articleno or eid field, in OKeeffe07
-You've used 15 entries,
+Warning--empty address in norvig
+Warning--empty publisher in sayyad13
+Warning--empty address in sayyad13
+Warning--page numbers missing in both pages and numpages fields in sayyad13
+Warning--empty publisher in turhan11
+Warning--empty address in turhan11
+Warning--empty address in Weimer2009
+You've used 35 entries,
             5795 wiz_defined-function locations,
-            1458 strings with 19073 characters,
-and the built_in function-call counts, 19129 in all, are:
-= -- 2420
-> -- 677
+            1576 strings with 23205 characters,
+and the built_in function-call counts, 43414 in all, are:
+= -- 5389
+> -- 1704
 < -- 1
-+ -- 235
-- -- 252
-* -- 1377
-:= -- 1930
-add.period$ -- 75
-call.type$ -- 15
-change.case$ -- 104
-chr.to.int$ -- 15
-cite$ -- 28
-duplicate$ -- 1668
-empty$ -- 1164
-format.name$ -- 308
-if$ -- 4583
++ -- 577
+- -- 600
+* -- 3217
+:= -- 4475
+add.period$ -- 180
+call.type$ -- 35
+change.case$ -- 260
+chr.to.int$ -- 35
+cite$ -- 74
+duplicate$ -- 3744
+empty$ -- 2618
+format.name$ -- 728
+if$ -- 10391
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 63
-newline$ -- 184
-num.names$ -- 120
-pop$ -- 599
+missing$ -- 141
+newline$ -- 356
+num.names$ -- 280
+pop$ -- 1409
 preamble$ -- 1
-purify$ -- 233
+purify$ -- 568
 quote$ -- 0
-skip$ -- 588
+skip$ -- 1299
 stack$ -- 0
-substring$ -- 1480
-swap$ -- 190
+substring$ -- 3168
+swap$ -- 385
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 336
-warning$ -- 13
-while$ -- 135
+type$ -- 779
+warning$ -- 39
+while$ -- 273
 width$ -- 0
-write$ -- 331
-(There were 10 error messages)
+write$ -- 684
+(There were 26 error messages)
