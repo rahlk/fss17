@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.10)  11 DEC 2017 18:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.10)  12 DEC 2017 16:53
 entering extended mode
 **./final.tex
 (final.tex
@@ -1596,13 +1596,23 @@ Package pdftex.def Info: Requested size: 241.14749pt x 164.92892pt on input lin
 e 3.
 )
 
+LaTeX Warning: Reference `fig:rq3' on page 5 undefined on input line 534.
+
+
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
  Make it at least 20.46953pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5.5] (rq3.tex
-<rq3.png, id=251, 567.62062pt x 352.31625pt>
+[5.5] (rq2.tex
+<rq2.png, id=250, 829.0975pt x 437.635pt>
+File: rq2.png Graphic file (type png)
+<use rq2.png>
+Package pdftex.def Info: rq2.png  used on input line 23. on input line 23.
+Package pdftex.def Info: Requested size: 241.14749pt x 127.28485pt on input lin
+e 23.
+) (rq3.tex
+<rq3.png, id=252, 567.62062pt x 352.31625pt>
 File: rq3.png Graphic file (type png)
 <use rq3.png>
 Package pdftex.def Info: rq3.png  used on input line 3. on input line 3.
@@ -1610,23 +1620,26 @@ Package pdftex.def Info: Requested size: 241.14749pt x 149.67596pt on input lin
 e 3.
 )
 
-Package natbib Warning: Citation `Rahman2013' on page 6 undefined on input line
- 573.
+LaTeX Warning: Reference `fig:rq3' on page 6 undefined on input line 568.
 
 
-Underfull \vbox (badness 1466) has occurred while \output is active []
+Underfull \vbox (badness 3019) has occurred while \output is active []
+
+ [6.6 <./rq1.png (PNG copy)> <./rq2.png (PNG copy)> <./rq3.png>]
+
+LaTeX Warning: Reference `sect:prelim' on page 7 undefined on input line 641.
 
 
-
-LaTeX Warning: Reference `sect:prelim' on page 6 undefined on input line 617.
-
-
-Package natbib Warning: Citation `Jing15' on page 6 undefined on input line 639
+Package natbib Warning: Citation `Jing15' on page 7 undefined on input line 656
 .
 
-[6.6 <./rq1.png (PNG copy)> <./rq3.png>] (final.bbl
-Overfull \vbox (4.8855pt too high) has occurred while \output is active []
+(final.bbl
+Underfull \vbox (badness 6396) has occurred while \output is active []
 
+
+
+Package balance Warning: You have called \balance in second column
+(balance)                Columns might not be balanced.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -1634,39 +1647,48 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7.7])
+[7.7]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
 
 Package natbib Warning: There were undefined citations.
 
 
-Overfull \vbox (1.40399pt too high) has occurred while \output is active []
+Overfull \vbox (1.62401pt too high) has occurred while \output is active []
 
 
 [8.8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 666.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 666.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 697.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 697.
  (final.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 666.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 666.
-Package rerunfilecheck Info: File `final.out' has not changed.
-(rerunfilecheck)             Checksum: 173BB6EABDB815A9CB89464D1DAF17A4;2790.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 697.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 697.
 
+
+Package rerunfilecheck Warning: File `final.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `final.out':
+(rerunfilecheck)             Before: 12B3F2417E489B02F0BFCDE12B152E53;2790
+(rerunfilecheck)             After:  B0EE98418289E7570837418274458A32;2701.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 666.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 697.
  ) 
 Here is how much of TeX's memory you used:
- 30186 strings out of 493312
- 535615 string characters out of 3138898
- 670047 words of memory out of 3000000
- 32383 multiletter control sequences out of 15000+200000
+ 30199 strings out of 493312
+ 535805 string characters out of 3138898
+ 661047 words of memory out of 3000000
+ 32391 multiletter control sequences out of 15000+200000
  232919 words of font info for 518 fonts, out of 3000000 for 9000
  1302 hyphenation exceptions out of 8191
- 60i,18n,94p,406b,639s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,18n,94p,406b,628s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Padma/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/libertine/lbtn_kij
 ugd.enc}{C:/Users/Padma/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/libertine/lb
 tn_25tcsq.enc}{C:/Users/Padma/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/newtx/
@@ -1693,9 +1715,9 @@ ublic/txfonts/txsyb.pfb><C:/Users/Padma/AppData/Roaming/MiKTeX/2.9/fonts/type1/
 public/newtx/txsys.pfb><C:/Users/Padma/AppData/Roaming/MiKTeX/2.9/fonts/type1/p
 ublic/newtx/zxlr.pfb><C:/Users/Padma/AppData/Roaming/MiKTeX/2.9/fonts/type1/pub
 lic/newtx/zxlri.pfb>
-Output written on final.pdf (8 pages, 1511237 bytes).
+Output written on final.pdf (8 pages, 1525911 bytes).
 PDF statistics:
- 401 PDF objects out of 1000 (max. 8388607)
- 91 named destinations out of 1000 (max. 500000)
- 62666 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 406 PDF objects out of 1000 (max. 8388607)
+ 93 named destinations out of 1000 (max. 500000)
+ 62671 words of extra memory for PDF output out of 74296 (max. 10000000)
 
